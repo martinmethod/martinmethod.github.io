@@ -1,0 +1,9 @@
+mixin link(profile)
+    - var ttl = 'Go to my ' + profile.name + ' profile'
+    a(class='icon ext-link #{profile.name.toLowerCase()}', href='#{profile.url}', target='_blank', title='#{ttl}')
+
+header(class='page')
+    each type in profiles
+        each profile in type
+            = '\n'
+            +link(profile)

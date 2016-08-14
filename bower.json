@@ -1,0 +1,32 @@
+{
+  "name": "homepage",
+  "title": "I develop web UI — Martin Metodiev",
+  "description": "Martin Metodiev's personal webpage",
+  "keywords": [
+    "martin",
+    "metodiev",
+    "ui",
+    "front end",
+    "client-side"
+  ],
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://martinmetodiev.com",
+  "authors": [
+    {
+      "name": "Martin Metodiev",
+      "email": "metodiev.martin@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/martinmethod.github.io.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "css_browser_selector": "*",
+    "jquery": "~2.1.4",
+    "normalize-css": "^4.1.1",
+    "fastclick": "^1.0.6"
+  }
+}

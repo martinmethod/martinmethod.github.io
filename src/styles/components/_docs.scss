@@ -1,0 +1,80 @@
+/* =========================| Docs |========================= */
+
+
+
+//====================> 1. Base
+
+.docs {
+  text-align: center;
+
+  a {
+    position: relative;
+    display: inline-block;
+    padding-left: 32px;
+
+    & + a {
+      margin-left: 22px;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin: 0 5px;
+      background-repeat: no-repeat;
+      background-size: auto 24px;
+      content: '';
+    }
+
+    &.resume::before    { background-image: inline-image('docs/resume.png'); }
+    &.portfolio::before { background-image: inline-image('docs/portfolio.png'); }
+  }
+}
+
+
+
+//====================> 2. Screen cases
+
+@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+
+  .docs {
+    a {
+      padding-left: 28px;
+
+      & + a {
+        margin-left: 12px;
+      }
+
+      &::before {
+        width: 20px;
+        height: 20px;
+        background-size: auto 20px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-height: 640px) and (min-width: 900px),
+       screen and (max-width: 1024px) {
+
+  .docs {
+    a {
+      padding-left: 24px;
+
+      & + a {
+        margin-left: 6px;
+      }
+
+      &::before {
+        width: 16px;
+        height: 16px;
+        background-size: auto 16px;
+      }
+    }
+  }
+
+}
