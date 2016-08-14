@@ -1,0 +1,452 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 10px;
+}
+body {
+  background: #eeeeee;
+  color: #444444;
+  font-family: "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  min-width: 320px;
+}
+a {
+  color: #336699;
+  text-decoration: underline;
+}
+a:active {
+  color: #cc0000 !important;
+}
+a:focus {
+  outline: none;
+}
+html:not(.mobile) a:hover {
+  color: #339900;
+  text-decoration: none;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.wrp-main {
+  max-width: 1280px;
+}
+.wrp {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrp-main {
+  max-width: 1440px;
+}
+.pad-main {
+  padding: 0 6.25%;
+}
+@media screen and (max-width: 999px) {
+  .wrp-main {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .pad-main {
+    padding: 0 3%;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  line-height: 1.1;
+}
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  margin: 0;
+}
+h2 {
+  margin: 0 -3.57142857% 10px;
+  padding: 5px 3.57142857%;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+h3 {
+  font-size: 24px;
+  margin: 30px 0 12px;
+}
+h4 {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  margin: 30px 0 12px;
+}
+@media screen and (max-width: 999px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 0 -1.78571429% 10px;
+    padding: 5px 1.78571429%;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 26px;
+  }
+  h4 {
+    font-size: 14px;
+    margin-top: 26px;
+  }
+}
+@media screen and (max-width: 599px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+}
+p {
+  margin: 0 0 10px;
+}
+p em {
+  display: block;
+  background-color: #ffffcc;
+  padding: 5px 10px;
+  border: 1px dotted #dddddd;
+  color: #333333;
+}
+pre {
+  margin: 12px 0 20px !important;
+  font-size: 12px;
+}
+@media screen and (max-width: 599px) {
+  pre {
+    font-size: 11px;
+  }
+}
+.btn {
+  display: inline-block;
+  height: 32px;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  background-color: #336699;
+  color: #FFF;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none !important;
+  padding: 4px 18px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: -moz- none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover {
+  background-color: #339900;
+  color: #FFF !important;
+}
+.btn:active {
+  background-color: #cc0000;
+  color: #FFF !important;
+}
+.textfield {
+  height: 32px;
+  padding: 4px;
+}
+.page-header {
+  width: 100%;
+  height: 170px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  cursor: default;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,eeeeee+100 */
+  background: #ffffff;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #eeeeee));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+  /* IE6-8 */
+}
+.page-header .wrp-main {
+  height: 100%;
+}
+.page-header .ttl {
+  padding-top: 40px;
+  white-space: nowrap;
+}
+.page-header .description {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 10px;
+}
+.ribbon {
+  display: block;
+  width: 149px;
+  height: 149px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background: url('http://martinmetodiev.com/images/ribbon.png') no-repeat right top;
+  background-size: 100% auto;
+}
+@media screen and (max-width: 999px) {
+  .page-header {
+    height: 130px;
+  }
+  .page-header .ttl {
+    padding-top: 32px;
+  }
+  .page-header .description {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  .ribbon {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .page-header {
+    height: 100px;
+  }
+  .page-header .ttl {
+    padding: 14px 60px 0 0;
+    white-space: normal;
+  }
+  .page-header .description {
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .ribbon {
+    width: 99px;
+    height: 99px;
+  }
+}
+.page-section {
+  position: relative;
+  z-index: 1;
+  margin: 170px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 0 10px -2px #cccccc;
+  box-shadow: 0 0 10px -2px #cccccc;
+}
+.page-section .pad-main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.page-section .col {
+  width: 48%;
+  padding: 0 1.7857142857%;
+  font-size: 16px;
+}
+.page-section .col-description,
+.page-section .col-docs {
+  float: left;
+}
+.page-section .col-demo {
+  float: right;
+}
+.page-section .col-demo ul,
+.page-section .col-demo ol,
+.page-section .col-demo li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page-section .col-docs {
+  clear: left;
+}
+.page-section h2:not(:first-of-type),
+.page-section .col-docs {
+  margin-top: 50px;
+}
+@media screen and (max-width: 999px) {
+  .page-section {
+    margin: 130px auto;
+  }
+  .page-section .col {
+    width: 100%;
+    float: none;
+    font-size: 14px;
+  }
+  .page-section .pad-main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .page-section h2:not(:first-of-type),
+  .page-section .col-docs,
+  .page-section .col-demo {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .page-section {
+    margin: 100px auto;
+  }
+  .page-section .col {
+    font-size: 13px;
+  }
+  .page-section .pad-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .page-section h2:not(:first-of-type),
+  .page-section .col-docs,
+  .page-section .col-demo {
+    margin-top: 30px;
+  }
+}
+.page-footer {
+  width: 100%;
+  height: 170px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  cursor: default;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,ffffff+100 */
+  background: #eeeeee;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #eeeeee 0%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eeeeee 0%, #ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eeeeee 0%, #ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #eeeeee 0%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+  /* IE6-8 */
+}
+.page-footer .wrp-main {
+  height: 100%;
+  position: relative;
+}
+.page-footer .links {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+.page-footer .links a {
+  display: inline-block;
+  position: relative;
+  padding-left: 42px;
+  margin: 0 10px;
+}
+.page-footer .links a:before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: -4px;
+  background-position: 0 0;
+  backgorund-repeat: no-repeat;
+  background-size: auto 32px;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  -webkit-box-shadow: 1px 1px 0 #999999;
+  box-shadow: 1px 1px 0 #999999;
+}
+.page-footer .links .me:before {
+  background-image: url('http://s.gravatar.com/avatar/0240c310cb30ce7e37a9b7c4c169a716?s=64');
+}
+.page-footer .license {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+}
+@media screen and (max-width: 999px) {
+  .page-footer {
+    height: 130px;
+  }
+  .page-footer .links {
+    padding-top: 32px;
+    font-size: 14px;
+  }
+  .page-footer .links a {
+    padding-left: 34px;
+  }
+  .page-footer .links a:before {
+    width: 24px;
+    height: 24px;
+    background-size: auto 24px;
+    top: -2px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .page-footer {
+    height: 100px;
+  }
+  .page-footer .links {
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  .page-footer .license {
+    width: 250px;
+    position: static;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+}
