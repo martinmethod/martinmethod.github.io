@@ -2,7 +2,7 @@ if experience
     article(class='experience')
         each val, index in experience
             = '\n'
-            div(class='#{index}-techonologies col cf')
+            div(class=index + '-techonologies col cf')
                 div(class='cell')
                     h2(class='page') #{val.label}
 
@@ -14,5 +14,5 @@ if experience
                             if logo.png
                                 - ext = 'png';
 
-                            li(class='#{name}')
-                                a(title='#{logo.text}', href='#{logo.url}', class='logo logo-#{name}', target='_blank')
+                            li(class=name)
+                                a(title=logo.text, href=logo.url, class='logo logo-' + name, target='_blank')
