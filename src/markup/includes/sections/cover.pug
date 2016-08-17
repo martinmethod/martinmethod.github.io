@@ -25,4 +25,4 @@ article(class='cover')
                     if docs
                         div(class='docs')
                             each doc, index in docs
-                                a(class='#{index}', href=doc.url, target='_blank', title='Take a look at my ' + doc.title) My #{doc.text}
+                                a(class=index, href=doc.url, target='_blank', title='Take a look at my ' + doc.title) My #{doc.text}
