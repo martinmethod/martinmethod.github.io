@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## 1.0.2 (2016-08-17)
+
+
+### Bug Fixes
+
+* **Icons:** Broken docs icons ([bca1b06](https://github.com/martinmethod/martinmethod.github.io/commit/bca1b06))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2016-08-17)
 
