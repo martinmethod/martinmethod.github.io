@@ -1,6 +1,6 @@
-# I develop web UI [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# I develop web UI
 
-[![Travis](https://img.shields.io/travis/martinmethod/martinmethod.github.io.svg)](https://travis-ci.org/martinmethod/martinmethod.github.io) [![David](https://img.shields.io/david/dev/martinmethod/martinmethod.github.io.svg)](https://david-dm.org/martinmethod/martinmethod.github.io?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/martinmethod.github.io.svg)](https://github.com/martinmethod/martinmethod.github.io/releases/latest)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/martinmethod.github.io.svg)](https://travis-ci.org/martinmethod/martinmethod.github.io) [![David](https://img.shields.io/david/dev/martinmethod/martinmethod.github.io.svg)](https://david-dm.org/martinmethod/martinmethod.github.io?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/martinmethod.github.io.svg)](https://github.com/martinmethod/martinmethod.github.io/releases/latest)
 
 A colleague of mine once told me that in many ways, the web designer is the users' advocate. It's his job to make sure they will be happy working with friendly interfaces that are easy to use. True, I would say.
 
