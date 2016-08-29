@@ -80,6 +80,10 @@
         "text": "Yeoman - the web's scaffolding tool for modern webapps",
         "url": "http://yeoman.io"
       },
+      "travis": {
+        "text": "Travis CI - Test and Deploy Your Code with Confidence",
+        "url": "https://travis-ci.org"
+      },
       "git": {
         "text": "git --everything-is-local",
         "url": "http://git-scm.com"
