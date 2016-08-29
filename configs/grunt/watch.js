@@ -6,12 +6,12 @@ module.exports = {
 
     markup: {
         files: ['src/markup/**/*.pug', 'src/model/**/*.json', '!src/model/logos.json'],
-        tasks: ['clean:markup', 'pug']
+        tasks: ['puglint', 'clean:markup', 'pug']
     },
 
     styles: {
         files: ['src/styles/**/*.scss', 'src/model/logos.json', 'src/images/**/*.*'],
-        tasks: ['scsslint', 'clean:styles', 'compass']
+        tasks: ['scsslint', 'clean:styles', 'stripCssComments', 'compass']
     },
 
     scripts: {

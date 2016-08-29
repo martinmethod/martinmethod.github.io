@@ -7,50 +7,50 @@ doctype html
 
 = '\n'
 
-html(lang="en")
-    head
-        title #{pkg.title} - #{pkg.author.name}
-
-        = '\n'
-
-        include includes/head/meta
-
-        include includes/head/webapp
-
-        include includes/head/social/google
-        include includes/head/social/facebook
-        include includes/head/social/twitter
-
-        include includes/head/robots
-
-        include includes/head/favicons
-
-        include includes/head/styles
-
-        include includes/head/fonts
+html(lang='en')
+  head
+    title #{pkg.title} - #{pkg.author.name}
 
     = '\n'
 
-    body(ontouchstart='')
-        div(class='gradient')
+    include includes/head/meta
 
-        = '\n'
+    include includes/head/webapp
 
-        include includes/sections/profiles
+    include includes/head/social/google
+    include includes/head/social/facebook
+    include includes/head/social/twitter
 
-        = '\n'
+    include includes/head/robots
 
-        section(class='cf')
-            include includes/sections/cover
+    include includes/head/favicons
 
-            = '\n'
+    include includes/head/styles
 
-            include includes/sections/experience
+    include includes/head/fonts
 
-            = '\n'
+  = '\n'
 
-            include includes/sections/copyright
+  body(ontouchstart='')
+    div(class='gradient')
 
-        include includes/foot/scripts
+    = '\n'
 
-        include includes/foot/analytics
+    include includes/sections/profiles
+
+    = '\n'
+
+    section(class='cf')
+      include includes/sections/cover
+
+      = '\n'
+
+      include includes/sections/experience
+
+      = '\n'
+
+      include includes/sections/copyright
+
+    include includes/foot/scripts
+
+    include includes/foot/analytics

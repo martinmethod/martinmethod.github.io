@@ -1,28 +1,28 @@
 article(class='cover')
-    div(class='table cf')
-        div(class='avatar col')
-            div(class='holder')
-                span(class='image')
+  div(class='table cf')
+    div(class='avatar col')
+      div(class='holder')
+        span(class='image')
+
+    = '\n'
+
+    div(class='text col')
+      div(class='summary cell')
+        h1(class='page') #{summary.title}
 
         = '\n'
 
-        div(class='text col')
-            div(class='summary cell')
-                h1(class='page') #{summary.title}
+        each text in summary.text
+          p #{text}
 
-                = '\n'
+        = '\n'
 
-                each text in summary.text
-                    p #{text}
+        footer(class='cf meta-n')
+          div(class='sign tar') — #{summary.author}
 
-                = '\n'
+          = '\n'
 
-                footer(class='cf meta-n')
-                    div(class='sign tar') — #{summary.author}
-
-                    = '\n'
-
-                    if docs
-                        div(class='docs')
-                            each doc, index in docs
-                                a(class=index, href=doc.url, target='_blank', title='Take a look at my ' + doc.title) My #{doc.text}
+          if docs
+            div(class='docs')
+              each doc, index in docs
+                a(class=index, href=doc.url, target='_blank', title='Take a look at my ' + doc.title) My #{doc.text}
