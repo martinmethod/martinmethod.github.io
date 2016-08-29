@@ -51,6 +51,10 @@
         "text": "Handlebars.js - minimal templating on steroids",
         "url": "http://handlebarsjs.com"
       },
+      "modernizr": {
+        "text": "Modernizr - the feature detection library for HTML5/CSS3",
+        "url": "https://modernizr.com"
+      },
       "wordpress": {
         "text": "WordPress - Blog Tool, Publishing Platform, and CMS",
         "url": "https://wordpress.org"
@@ -79,6 +83,10 @@
       "yeoman": {
         "text": "Yeoman - the web's scaffolding tool for modern webapps",
         "url": "http://yeoman.io"
+      },
+      "travis": {
+        "text": "Travis CI - Test and Deploy Your Code with Confidence",
+        "url": "https://travis-ci.org"
       },
       "git": {
         "text": "git --everything-is-local",
