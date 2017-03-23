@@ -1,15 +1,10 @@
-/* =========================| Homepage |========================= */
+// =========================| Homepage |========================= //
 
 
 
 //--------------------------| Compass
 
 @import 'compass';
-
-
-//--------------------------| JSON
-
-@import '../model/logos.json';
 
 
 //--------------------------| Dependencies
@@ -19,22 +14,35 @@
 
 //--------------------------| Libraries
 
-@import 'libs/variables';
+@import 'libs/data/registries';
+@import 'libs/data/roles';
 @import 'libs/mixins';
 
 
 //--------------------------| Base
 
 @import 'base/scaffolding';
-@import 'base/utilities';
-@import 'base/typography';
 
 
-//--------------------------| Structures
+//--------------------------| Atoms
 
-@import 'structures/*';
+// The prefix "pa-" stands for "pattern atom"
+@import 'atoms/**/*.*';
 
 
-//--------------------------| Components
+//--------------------------| Molecules
 
-@import 'components/*';
+// The prefix "pm-" stands for "pattern molecule"
+@import 'molecules/**/*.*';
+
+
+//--------------------------| Organisms
+
+// The prefix "po-" stands for "pattern organism"
+@import 'organisms/**/*.*';
+
+
+//--------------------------| Templates
+
+// The prefix "pt-" stands for "pattern template"
+@import 'templates/**/*.*';

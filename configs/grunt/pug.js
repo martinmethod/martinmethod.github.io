@@ -9,12 +9,11 @@ module.exports = {
         pkg: grunt.file.readJSON('package.json'),
         profiles: grunt.file.readJSON('src/model/profiles.json'),
         summary: grunt.file.readJSON('src/model/summary.json'),
-        docs: grunt.file.readJSON('src/model/docs.json'),
-        experience: grunt.file.readJSON('src/model/experience.json')
+        docs: grunt.file.readJSON('src/model/docs.json')
       }
     },
     files: {
-      'dist/index.html': 'src/markup/<%= pkg.name %>.pug'
+      'dist/index.html': 'src/markup/index.pug'
     }
   }
 };

@@ -1,0 +1,34 @@
+// =========================| Registries |========================= //
+
+
+
+//--------------------------| Colors
+
+$reg-col-black:      #000;
+$reg-col-white:      #fff;
+
+$reg-col-gray-dark:  lighten($reg-col-black, 20%);   // #333
+$reg-col-gray:       lighten($reg-col-black, 26.8%); // #444
+$reg-col-gray-light: lighten($reg-col-black, 46.7%); // #777
+
+$reg-col-blue:  #369;
+$reg-col-green: #390;
+$reg-col-red:   #c00;
+
+
+//--------------------------| Font families
+
+$reg-font-family-sans-serif: "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//--------------------------| Font sizes
+
+$reg-font-size-base:   20px;
+$reg-font-size-normal: ceil(($reg-font-size-base * .80)); // ~16px
+$reg-font-size-small:  ceil(($reg-font-size-base * .70)); // ~14px
+
+
+//--------------------------| Line heights
+
+$reg-line-height-base:  1.5; // 24/16
+$reg-line-height-tight: 1.1;

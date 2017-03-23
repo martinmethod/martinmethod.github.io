@@ -1,0 +1,32 @@
+// =========================| Atom: Meta |========================= //
+
+
+
+//====================> 1. Base
+
+.pa-meta {
+  font-size: $role-text-size-meta;
+  color: $role-text-col-meta;
+}
+
+
+
+//====================> 2. Screen cases
+
+@media screen and (max-width: $role-breakpoint-maxw-xxl),
+screen and (max-height: $role-breakpoint-maxh-xl) {
+
+  .pa-meta {
+    font-size: $role-text-size-meta / 1.1422222;
+  }
+
+}
+
+@media screen and (max-height: $role-breakpoint-maxh-l) and (min-width: $role-breakpoint-minw-xl),
+screen and (max-width: $role-breakpoint-maxw-xl) {
+
+  .pa-meta {
+    font-size: $role-text-size-meta / 1.333333;
+  }
+
+}

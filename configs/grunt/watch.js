@@ -5,18 +5,13 @@ module.exports = {
   },
 
   markup: {
-    files: ['src/markup/**/*.pug', 'src/model/**/*.json', '!src/model/logos.json'],
+    files: ['src/markup/**/*.pug', 'src/model/**/*.json'],
     tasks: ['puglint', 'clean:markup', 'pug']
   },
 
   styles: {
-    files: ['src/styles/**/*.scss', 'src/model/logos.json', 'src/images/**/*.*'],
+    files: ['src/styles/**/*.scss', 'src/images/**/*.*'],
     tasks: ['scsslint', 'clean:styles', 'stripCssComments', 'compass']
-  },
-
-  scripts: {
-    files: ['src/scripts/**/*.js'],
-    tasks: ['jshint', 'clean:scripts', 'concat', 'uglify']
   },
 
   favicons: {

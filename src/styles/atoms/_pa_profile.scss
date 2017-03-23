@@ -1,0 +1,55 @@
+// =========================| Atom: Profile |========================= //
+
+
+
+
+//====================> 0. Config
+
+$icons: (
+  social: linkedin twitter,
+  dev: codepen github
+);
+
+
+
+//====================> 1. Base
+
+.pa-profile {
+  @include transition(all .2s ease-in-out);
+
+  position: absolute;
+  display: inline-block;
+  width: $pa-profile-size;
+  height: $pa-profile-size;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-size: auto $pa-profile-size;
+}
+
+@for $l from 0 to length($icons) {
+  $type: nth(nth($icons, $l + 1), 1);
+  $list: nth(nth($icons, $l + 1), 2);
+
+  $pos: 10px;
+  $direction: if($type == 'social', 'left', 'right');
+
+  @for $i from 0 to length($list) {
+    $item: nth($list, $i + 1);
+
+    .#{$item} {
+      #{$direction}: $pos;
+      background-image: inline-image('accounts/#{$item}.svg');
+    }
+
+    $pos: $pos + 44px;
+  }
+}
+
+html:not(.mobile) .pa-profile:active {
+  opacity: .75;
+}
+
+html:not(.mobile) .pa-profile:hover,
+html.mobile .pa-profile:active {
+  @include translate(0, -5px);
+}
