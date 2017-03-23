@@ -1,0 +1,38 @@
+// =========================| Template: Homepage |========================= //
+
+
+
+.pt-homepage {
+
+  height: 100%;
+
+
+
+  //====================> 1. Header
+
+  > header {
+    @include accelerate-gpu();
+
+    position: relative;
+    z-index: 2;
+    height: $role-size-height-header;
+  }
+
+
+
+  //====================> 2. Main
+
+  > main {
+    //
+  }
+
+
+
+  //====================> 3. Footer
+
+  > footer {
+    height: $role-size-height-footer;
+  }
+
+
+} // pt-homepage

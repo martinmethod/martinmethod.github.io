@@ -1,0 +1,27 @@
+// =========================| Atom: Link |========================= //
+
+
+
+//====================> 1. Base
+
+a {
+  color: $role-link-col-normal;
+  text-decoration: underline;
+
+  &:active {
+    color: $role-link-col-active !important;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+//====================> 2. Desktop only
+
+html:not(.mobile) a:hover {
+  color: $role-link-col-hover;
+  text-decoration: none;
+}

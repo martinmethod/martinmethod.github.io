@@ -1,0 +1,65 @@
+// =========================| Registries |========================= //
+
+
+
+//--------------------------| Base typography
+
+$role-base-typo-family:      $reg-font-family-sans-serif;
+$role-base-typo-size:        $reg-font-size-base;
+$role-base-typo-line-height: $reg-line-height-base;
+$role-base-typo-color:       $reg-col-gray;
+
+
+//--------------------------| Texts
+
+$role-text-size-ttl-page: floor(($role-base-typo-size * 3.4));
+$role-text-size-meta:     $reg-font-size-normal;
+
+$role-line-height-ttl: $reg-line-height-tight;
+
+$role-text-col-ttl:  $reg-col-gray-dark;
+$role-text-col-meta: $reg-col-gray-light;
+
+
+//--------------------------| Backgrounds
+
+$role-bgr-base: $reg-col-white;
+
+
+//--------------------------| Links
+
+$role-link-col-normal: $reg-col-blue;
+$role-link-col-hover:  $reg-col-green;
+$role-link-col-active: $reg-col-red;
+
+
+//--------------------------| Object sizes
+
+$role-size-height-gradient: 60px;
+
+$role-size-height-header: 60px;
+$role-size-height-footer: 60px;
+
+$role-size-image: 600px;
+
+$pa-profile-size: 32px;
+
+
+//--------------------------| Screen size limits
+
+$role-screen-size-min: 320px;
+
+
+//--------------------------| Breakpoints
+
+$role-breakpoint-maxw-xxl: 1280px;
+$role-breakpoint-maxw-xl:  1024px;
+$role-breakpoint-maxw-l:    829px;
+$role-breakpoint-maxw-m:    767px;
+$role-breakpoint-maxw-s:    600px;
+
+$role-breakpoint-maxh-xl:   800px;
+$role-breakpoint-maxh-l:    640px;
+$role-breakpoint-maxh-s:    550px;
+
+$role-breakpoint-minw-xl:   900px;
