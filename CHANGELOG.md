@@ -1,3 +1,16 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2017-03-23)
+
+
+### Features
+
+* **LibSass:** Replaced Ruby Sass with Node Sass ([cde1e4c](https://github.com/martinmethod/martinmethod.github.io/commit/cde1e4c))
+* **Packages:** Replaced Bower with NPM ([62f9136](https://github.com/martinmethod/martinmethod.github.io/commit/62f9136))
+* **Pug lint:** Removed "disallowIdLiteralsBeforeAttributes" ([a2d39d8](https://github.com/martinmethod/martinmethod.github.io/commit/a2d39d8))
+* **Refactored Home page:** Removed logos ([6097475](https://github.com/martinmethod/martinmethod.github.io/commit/6097475))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2016-08-29)
 
