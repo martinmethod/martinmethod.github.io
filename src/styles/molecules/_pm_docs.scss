@@ -1,0 +1,47 @@
+// =========================| Molecule: Docs |========================= //
+
+
+
+//====================> 1. Base
+
+.pm-docs {
+  .pa-doc {
+    & + .pa-doc {
+      margin-left: 22px;
+    }
+  }
+}
+
+
+
+//====================> 2. Screen cases
+
+@media screen and (max-width: $role-breakpoint-maxw-xxl),
+       screen and (max-height: $role-breakpoint-maxh-xl) {
+
+  .pm-docs {
+    .pa-doc {
+      padding-left: 28px;
+
+      & + .pa-doc {
+        margin-left: 12px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-height: $role-breakpoint-maxh-l) and (min-width: $role-breakpoint-minw-xl),
+       screen and (max-width: $role-breakpoint-maxw-xl) {
+
+  .pm-docs {
+    .pa-doc {
+      padding-left: 24px;
+
+      & + .pa-doc {
+        margin-left: 6px;
+      }
+    }
+  }
+
+}

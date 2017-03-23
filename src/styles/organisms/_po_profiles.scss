@@ -1,0 +1,16 @@
+// =========================| Organism: Profiles |========================= //
+
+
+
+//====================> 1. Base
+
+.po-profiles {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  .pa-profile {
+    top: 50%;
+    margin-top: -#{$pa-profile-size / 2};
+  }
+}
