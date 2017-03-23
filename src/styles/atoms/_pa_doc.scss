@@ -23,11 +23,11 @@
   }
 
   &.resume::before {
-    background-image: inline-image('docs/resume.png');
+    background-image: url(data-uri('src/images/docs/resume.png'));
   }
 
   &.portfolio::before {
-    background-image: inline-image('docs/portfolio.png');
+    background-image: url(data-uri('src/images/docs/portfolio.png'));
   }
 }
 

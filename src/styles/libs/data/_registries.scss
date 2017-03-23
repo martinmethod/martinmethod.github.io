@@ -18,14 +18,14 @@ $reg-col-red:   #c00;
 
 //--------------------------| Font families
 
-$reg-font-family-sans-serif: "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$reg-font-family-sans-serif: 'myriad-pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 
 //--------------------------| Font sizes
 
 $reg-font-size-base:   20px;
-$reg-font-size-normal: ceil(($reg-font-size-base * .80)); // ~16px
-$reg-font-size-small:  ceil(($reg-font-size-base * .70)); // ~14px
+$reg-font-size-normal: ceil(($reg-font-size-base * .8)); // ~16px
+$reg-font-size-small:  ceil(($reg-font-size-base * .7)); // ~14px
 
 
 //--------------------------| Line heights

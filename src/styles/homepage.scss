@@ -4,12 +4,12 @@
 
 //--------------------------| Compass
 
-@import 'compass';
+@import '../../node_modules/compass-mixins/lib/compass';
 
 
 //--------------------------| Dependencies
 
-@import 'CSS:../../node_modules/normalize.css/normalize';
+@import '../../node_modules/normalize.css/normalize';
 
 
 //--------------------------| Libraries
@@ -27,22 +27,31 @@
 //--------------------------| Atoms
 
 // The prefix "pa-" stands for "pattern atom"
-@import 'atoms/**/*.*';
+@import 'atoms/pa_doc';
+@import 'atoms/pa_gradient';
+@import 'atoms/pa_link';
+@import 'atoms/pa_meta';
+@import 'atoms/pa_profile';
+@import 'atoms/pa_ttl-page';
 
 
 //--------------------------| Molecules
 
 // The prefix "pm-" stands for "pattern molecule"
-@import 'molecules/**/*.*';
+@import 'molecules/pm_avatar';
+@import 'molecules/pm_docs';
+@import 'molecules/pm_summary';
 
 
 //--------------------------| Organisms
 
 // The prefix "po-" stands for "pattern organism"
-@import 'organisms/**/*.*';
+@import 'organisms/po_copyright';
+@import 'organisms/po_cover';
+@import 'organisms/po_profiles';
 
 
 //--------------------------| Templates
 
 // The prefix "pt-" stands for "pattern template"
-@import 'templates/**/*.*';
+@import 'templates/pt_homepage';

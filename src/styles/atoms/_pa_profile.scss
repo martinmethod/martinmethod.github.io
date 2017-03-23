@@ -38,7 +38,7 @@ $icons: (
 
     .#{$item} {
       #{$direction}: $pos;
-      background-image: inline-image('accounts/#{$item}.svg');
+      background-image: url(data-uri('src/images/accounts/#{$item}.svg'));
     }
 
     $pos: $pos + 44px;
