@@ -15,8 +15,7 @@ module.exports = {
   ],
 
   prod: [
-    'htmlmin',
-    'copy:plugins'
+    'htmlmin'
   ],
 
   review: [
