@@ -1,3 +1,13 @@
+<a name="1.3.4"></a>
+## 1.3.4 (2017-04-06)
+
+
+### Bug Fixes
+
+* **Deploy:** Broken Travis configuration ([55ab4e6](https://github.com/martinmethod/martinmethod.github.io/commit/55ab4e6))
+
+
+
 <a name="1.3.3"></a>
 ## 1.3.3 (2017-04-06)
 
