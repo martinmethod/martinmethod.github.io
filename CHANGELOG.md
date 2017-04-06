@@ -1,3 +1,14 @@
+<a name="1.3.1"></a>
+## 1.3.1 (2017-04-06)
+
+
+### Bug Fixes
+
+* **GitHub Pages:** Ignoring "deployed at…" file ([6768e43](https://github.com/martinmethod/martinmethod.github.io/commit/6768e43))
+* **GitHub Release:** Distribution only ([001479f](https://github.com/martinmethod/martinmethod.github.io/commit/001479f))
+
+
+
 <a name="1.3.0"></a>
 # 1.3.0 (2017-04-06)
 
