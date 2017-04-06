@@ -1,3 +1,13 @@
+<a name="1.3.3"></a>
+## 1.3.3 (2017-04-06)
+
+
+### Bug Fixes
+
+* **GitHub Releases:** Rollback ([80a713b](https://github.com/martinmethod/martinmethod.github.io/commit/80a713b))
+
+
+
 <a name="1.3.2"></a>
 ## 1.3.2 (2017-04-06)
 
