@@ -5,7 +5,7 @@ script:
 - npm install grunt-cli -g
 - npm install
 - grunt build --target='prod'
-- printf '.gitignore\ndist/deployed*' > .gitignore
+- printf '.gitignore\ndeployed*' > dist/.gitignore
 - printf 'martinmetodiev.com' > dist/CNAME
 - cp 'README.md' dist
 branches:
