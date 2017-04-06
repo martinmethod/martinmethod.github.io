@@ -1,3 +1,13 @@
+<a name="1.3.2"></a>
+## 1.3.2 (2017-04-06)
+
+
+### Bug Fixes
+
+* **GitHub Release:** Distribution only ([fd73d5e](https://github.com/martinmethod/martinmethod.github.io/commit/fd73d5e))
+
+
+
 <a name="1.3.1"></a>
 ## 1.3.1 (2017-04-06)
 
