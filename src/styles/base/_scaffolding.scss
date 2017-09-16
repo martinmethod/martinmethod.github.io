@@ -54,7 +54,7 @@ body {
 }
 
 @media screen and (max-height: $role-breakpoint-maxh-l) and (min-width: $role-breakpoint-minw-xl),
-       screen and (max-width: $role-breakpoint-maxw-xl - 1) {
+       screen and (max-width: $role-breakpoint-maxw-xl) {
 
   body {
     font-size: $reg-font-size-small;

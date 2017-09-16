@@ -1,3 +1,19 @@
+<a name="1.3.6"></a>
+## 1.3.6 (2017-09-16)
+
+
+### Bug Fixes
+
+* **Deploy:** Broken Travis configuration ([55ab4e6](https://github.com/martinmethod/martinmethod.github.io/commit/55ab4e6))
+* **GitHub Pages:** Ignoring "deployed at…" file ([3792385](https://github.com/martinmethod/martinmethod.github.io/commit/3792385))
+* **GitHub Pages:** Ignoring "deployed at…" file ([6768e43](https://github.com/martinmethod/martinmethod.github.io/commit/6768e43))
+* **GitHub Release:** Distribution only ([fd73d5e](https://github.com/martinmethod/martinmethod.github.io/commit/fd73d5e))
+* **GitHub Release:** Distribution only ([001479f](https://github.com/martinmethod/martinmethod.github.io/commit/001479f))
+* **GitHub Releases:** Rollback ([80a713b](https://github.com/martinmethod/martinmethod.github.io/commit/80a713b))
+* **Media Queries:** Wrong query ([8119cbd](https://github.com/martinmethod/martinmethod.github.io/commit/8119cbd))
+
+
+
 <a name="1.3.0"></a>
 # 1.3.0 (2017-04-06)
 
