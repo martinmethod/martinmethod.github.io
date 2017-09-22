@@ -1,3 +1,13 @@
+<a name="1.3.7"></a>
+## 1.3.7 (2017-09-22)
+
+
+### Bug Fixes
+
+* **Copyright:** Replaced minus sign with real dash ([ec3347f](https://github.com/martinmethod/martinmethod.github.io/commit/ec3347f))
+
+
+
 <a name="1.3.6"></a>
 ## 1.3.6 (2017-09-16)
 
