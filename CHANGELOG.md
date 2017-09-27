@@ -1,3 +1,13 @@
+<a name="1.3.8"></a>
+## 1.3.8 (2017-09-27)
+
+
+### Bug Fixes
+
+* **Title:** Centered title for tight-width screens ([c9353ac](https://github.com/martinmethod/martinmethod.github.io/commit/c9353ac))
+
+
+
 <a name="1.3.7"></a>
 ## 1.3.7 (2017-09-22)
 
