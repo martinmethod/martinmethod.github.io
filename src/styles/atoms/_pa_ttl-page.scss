@@ -40,3 +40,13 @@
   }
 
 }
+
+@media screen and (max-width: $role-breakpoint-maxw-m),
+screen and (max-width: $role-breakpoint-maxw-l) and (max-height: $role-breakpoint-maxh-s),
+screen and (max-aspect-ratio: #{1/1}) {
+
+  .pa-ttl-page {
+    text-align: center;
+  }
+
+}
