@@ -1,3 +1,13 @@
+<a name="1.4.2"></a>
+## 1.4.2 (2019-08-05)
+
+
+### Bug Fixes
+
+* **Travis:** Updated Node version ([c6f9154](https://github.com/martinmethod/martinmethod.github.io/commit/c6f9154))
+
+
+
 <a name="1.4.1"></a>
 ## 1.4.1 (2019-08-05)
 
