@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# 1.4.0 (2019-08-05)
+
+
+### Features
+
+* **Content:** Removed CodePen & Twitter accounts ([5e0f6cb](https://github.com/martinmethod/martinmethod.github.io/commit/5e0f6cb))
+
+
+
 <a name="1.3.8"></a>
 ## 1.3.8 (2017-09-27)
 

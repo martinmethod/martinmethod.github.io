@@ -1,21 +1,23 @@
+var browser = process.platform === 'win32' ? 'Chrome' : '/Applications/Google Chrome.app';
+
 module.exports = {
   dev : {
-    app: 'Google Chrome',
+    app: browser,
     path: 'http://localhost:8000'
   },
 
   prod : {
-    app: 'Google Chrome',
+    app: browser,
     path: 'http://martinmetodiev.com'
   },
 
   build: {
-    app: 'Google Chrome',
+    app: browser,
     path: 'https://travis-ci.org/martinmethod/martinmethod.github.io/builds'
   },
 
   repo: {
-    app: 'Google Chrome',
+    app: browser,
     path: 'https://github.com/martinmethod/martinmethod.github.io'
   }
 };
