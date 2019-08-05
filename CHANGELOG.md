@@ -1,3 +1,13 @@
+<a name="1.4.1"></a>
+## 1.4.1 (2019-08-05)
+
+
+### Bug Fixes
+
+* **Modules:** Updated dependencies ([173783b](https://github.com/martinmethod/martinmethod.github.io/commit/173783b))
+
+
+
 <a name="1.4.0"></a>
 # 1.4.0 (2019-08-05)
 
