@@ -23,7 +23,7 @@
     }
 
     @if $property == font-size {
-      @media screen and (max-height: 1000px) {
+      @media screen and (min-width: $min-vw) and (max-height: 1000px) {
         #{$property}: get-progressive-calc(
           $min-size * 0.8,
           $max-size * 0.8,
