@@ -1,0 +1,33 @@
+// ===================================================|
+// Atoms: LINK
+
+//--------------------------| Root
+.root {
+  @include link-styles-generator();
+
+  display: flex;
+}
+
+//--------------------------| Icon
+.icon {
+  @include dimensions-square(rem($roles-size-link-icon));
+
+  margin-right: rem(map-get($roles-spaces-min, 'text-icon'));
+}
+
+//--------------------------| Label
+.label {
+  font-size: map-get($roles-typo-font-sizes, 'link');
+  font-weight: map-get($roles-typo-font-weights, 'link');
+}
+
+//--------------------------| Print styles
+@media print {
+  .root::after {
+    content: attr(href);
+  }
+
+  .label {
+    font-size: 0;
+  }
+}

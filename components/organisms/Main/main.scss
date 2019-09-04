@@ -1,0 +1,42 @@
+// ===================================================|
+// Organisms: MAIN
+
+//--------------------------| Root
+.root {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+//--------------------------| Links
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(map-get($roles-spaces-min, 'organisms'));
+}
+
+//--------------------------| Links group
+.links-group {
+  + .links-group {
+    margin-left: rem(map-get($roles-spaces-min, 'molecules') * 2);
+  }
+}
+
+//--------------------------| Print styles
+@media print {
+  .root {
+    padding-bottom: 5rem; // Compensates the feeling of bigger empty space at the top
+  }
+
+  .links {
+    flex-direction: column;
+    margin-top: rem(map-get($roles-spaces-min, 'organisms') * 2);
+  }
+
+  .links-group {
+    + .links-group {
+      margin: rem(map-get($roles-spaces-min, 'molecules') * 2) 0 0 0;
+    }
+  }
+}

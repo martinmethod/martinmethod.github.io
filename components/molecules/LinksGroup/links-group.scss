@@ -1,0 +1,24 @@
+// ===================================================|
+// Molecules: LINKS GROUP
+
+//--------------------------| Root
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+//--------------------------| Item
+.item {
+  + .item {
+    margin-top: rem(map-get($roles-spaces-min, 'atoms') * 2);
+  }
+}
+
+//--------------------------| Print styles
+@media print {
+  .item {
+    + .item {
+      margin-top: rem(map-get($roles-spaces-min, 'atoms'));
+    }
+  }
+}

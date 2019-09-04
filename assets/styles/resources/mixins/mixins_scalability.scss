@@ -1,0 +1,44 @@
+// ===================================================|
+// Mixins: SCALABILITY
+
+//--------------------------| Scaler
+@mixin scaler(
+  $property,
+  $min-size,
+  $max-size,
+  $min-vw: map-get($swatch-screens, 'min'),
+  $max-vw: map-get($swatch-screens, 'max'),
+  $min-vh: 600,
+  $max-vh: 800
+) {
+  & {
+    #{$property}: 4.06vw;
+
+    @media screen and (min-width: $min-vw) {
+      #{$property}: get-progressive-calc($min-size, $max-size);
+    }
+
+    @media screen and (orientation: landscape) and (min-width: $max-vw) {
+      #{$property}: $max-size;
+    }
+
+    @if $property == font-size {
+      @media screen and (max-height: 1000px) {
+        #{$property}: get-progressive-calc(
+          $min-size * 0.8,
+          $max-size * 0.8,
+          vh
+        );
+      }
+    }
+  }
+}
+
+//--------------------------| Side spacer
+@mixin side-spacer(
+  $min: map-get($roles-spaces-min, 'page'),
+  $max: map-get($roles-spaces-max, 'page')
+) {
+  @include scaler(padding-left, $min, $max);
+  @include scaler(padding-right, $min, $max);
+}

@@ -1,0 +1,12 @@
+<main :class="$style.root">
+  <Article
+    :title="text.fields.title"
+    :content="text.fields.content"
+    :author="identity.fields.firstName + ' ' + identity.fields.lastName"
+  />
+
+  <div :class="$style.links">
+    <LinksGroup :class="$style.linksGroup" :items="documents" />
+    <LinksGroup :class="$style.linksGroup" :items="accounts" />
+  </div>
+</main>
