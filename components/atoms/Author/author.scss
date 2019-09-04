@@ -3,9 +3,20 @@
 
 //--------------------------| Root
 .root {
-  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: map-get($roles-typo-font-sizes, 'author');
   font-style: italic;
   font-weight: map-get($roles-typo-font-weights, 'author');
   color: map-get($roles-col-texts, 'author');
+
+  p {
+    margin: 0;
+  }
+}
+
+//--------------------------| Name
+.name {
+  //
 }

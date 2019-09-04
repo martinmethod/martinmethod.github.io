@@ -8,7 +8,26 @@
 
 //--------------------------| Head
 .head {
+  position: relative;
+}
+
+//--------------------------| Title
+.title {
   //
+}
+
+//--------------------------| Avatar
+.avatar {
+  @include absolute-centered-y();
+
+  right: 0;
+
+  @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    @include dimensions-square(rem($roles-size-avatar / 2));
+
+    top: 0;
+    transform: none;
+  }
 }
 
 //--------------------------| Content
@@ -28,5 +47,5 @@
 
 //--------------------------| Foot
 .foot {
-  text-align: right;
+  margin-top: rem(map-get($roles-spaces-min, 'molecules'));
 }

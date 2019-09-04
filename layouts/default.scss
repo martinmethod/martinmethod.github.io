@@ -29,7 +29,6 @@
 
   main {
     flex: 1;
-    margin-top: rem(map-get($roles-spaces-min, 'organisms'));
     margin-bottom: rem(map-get($roles-spaces-min, 'organisms') * 2);
 
     @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {

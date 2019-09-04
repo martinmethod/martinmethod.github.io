@@ -5,8 +5,6 @@
 .root {
   @include dimensions-square(rem($roles-size-avatar));
 
-  border: map-get($roles-borders-wrappers, 'avatar');
-
   &,
   img {
     display: block;

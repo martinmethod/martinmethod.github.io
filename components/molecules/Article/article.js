@@ -6,9 +6,10 @@ import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import Heading from '@/components/atoms/Heading';
 import TextBlock from '@/components/atoms/Text';
 import Author from '@/components/atoms/Author';
+import Avatar from '@/components/atoms/Avatar';
 
 export default {
-  components: { Heading, TextBlock, Author },
+  components: { Heading, TextBlock, Author, Avatar },
 
   computed: {
     formattedTitle() {
@@ -34,7 +35,7 @@ export default {
       required: true
     },
     author: {
-      type: String
+      type: Object
     }
   }
 };
