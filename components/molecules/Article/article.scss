@@ -1,0 +1,32 @@
+// ===================================================|
+// Molecules: ARTICLE
+
+//--------------------------| Root
+.root {
+  //
+}
+
+//--------------------------| Head
+.head {
+  //
+}
+
+//--------------------------| Content
+.content {
+  margin-top: rem(map-get($roles-spaces-min, 'molecules') * 4);
+
+  @media (min-width: #{map-get($roles-breakpoints, 'text')}) {
+    column-count: 2;
+    column-gap: rem(map-get($roles-spaces-min, 'molecules') * 2);
+  }
+}
+
+//--------------------------| Text
+.text {
+  //
+}
+
+//--------------------------| Foot
+.foot {
+  text-align: right;
+}

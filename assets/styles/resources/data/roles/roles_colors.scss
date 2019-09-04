@@ -1,0 +1,28 @@
+// ===================================================|
+// Roles: COLORS
+
+//--------------------------| Text
+$roles-col-texts: (
+  'base': map-get($swatch-colors-mono, 'mine-shaft'),
+  'heading': map-get($swatch-colors-mono, 'mine-shaft'),
+  'author': map-get($swatch-colors-mono, 'dove-gray'),
+  'footer': map-get($swatch-colors-mono, 'dusty-gray')
+);
+
+//--------------------------| Labels
+$roles-col-labels: (
+  'design': map-get($swatch-colors-brand, 'orange'),
+  'code': map-get($swatch-colors-brand, 'blue')
+);
+
+//--------------------------| Links
+$roles-col-links: (
+  'link': map-get($swatch-colors-brand, 'blue'),
+  'hover': light(map-get($swatch-colors-brand, 'blue'), 25%),
+  'active': map-get($swatch-colors-brand, 'orange')
+);
+
+//--------------------------| Backgrounds
+$roles-col-backgrounds: (
+  'app': map-get($swatch-backgrounds, 'white')
+);

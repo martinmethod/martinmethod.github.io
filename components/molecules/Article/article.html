@@ -1,0 +1,15 @@
+<article :class="$style.root">
+  <div :class="$style.head">
+    <Heading :title="formattedTitle" />
+  </div>
+
+  <div :class="$style.content">
+    <div :class="$style.text">
+      <TextBlock :text="formattedText" />
+    </div>
+
+    <div :class="$style.foot">
+      <Author v-if="author" :name="author" />
+    </div>
+  </div>
+</article>

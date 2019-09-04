@@ -1,0 +1,36 @@
+// ===================================================|
+// Atoms: TEXT
+
+//--------------------------| Root
+.root {
+  line-height: map-get($roles-typo-line-heights, 'text');
+
+  p {
+    margin-top: 0;
+  }
+
+  > *:first-child {
+    &::first-letter {
+      float: left;
+      padding-right: 0.5rem;
+      margin: -1.9rem 0 -0.8rem 0.3rem;
+      font-size: 4rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1;
+      color: map-get($swatch-colors-mono, 'dove-gray');
+    }
+  }
+
+  @-moz-document url-prefix('') {
+    > *:first-child {
+      &::first-letter {
+        margin-top: -1.5rem;
+      }
+    }
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}

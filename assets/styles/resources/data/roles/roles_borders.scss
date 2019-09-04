@@ -1,0 +1,20 @@
+// ===================================================|
+// Roles: BORDERS
+
+//--------------------------| Dividers
+$roles-borders-dividers: ();
+
+//--------------------------| Underlines
+$roles-borders-underlines: (
+  'link': map-get($swatch-borders, '1px-dotted-light-blue')
+);
+
+//--------------------------| Wrappers
+$roles-borders-wrappers: (
+  'avatar': map-get($swatch-borders, '2px-solid-dusty-gray')
+);
+
+//--------------------------| Radiuses
+$roles-borders-radiuses: (
+  'avatar': map-get($swatch-border-radiuses, 'circle')
+);

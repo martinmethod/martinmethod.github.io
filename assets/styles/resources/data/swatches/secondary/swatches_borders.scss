@@ -1,0 +1,15 @@
+// ===================================================|
+// Swatches: BORDERS
+
+//--------------------------| Types
+$swatch-borders: (
+  '1px-solid-white': 1px solid map-get($swatch-colors-mono, 'white'),
+  '2px-solid-dusty-gray': 2px solid map-get($swatch-colors-mono, 'dusty-gray'),
+  '1px-dotted-light-blue': 1px dotted
+    light(map-get($swatch-colors-brand, 'blue'), 50%)
+);
+
+//--------------------------| Radiuses
+$swatch-border-radiuses: (
+  'circle': 50%
+);

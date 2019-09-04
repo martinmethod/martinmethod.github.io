@@ -1,0 +1,16 @@
+// ===================================================|
+// Global: APP
+
+//--------------------------| __nuxt container
+body > div {
+  //
+}
+
+//--------------------------| Colored labels
+[data-col='o'] {
+  color: map-get($roles-col-labels, 'design');
+}
+
+[data-col='b'] {
+  color: map-get($roles-col-labels, 'code');
+}

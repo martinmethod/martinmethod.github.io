@@ -1,0 +1,60 @@
+// ===================================================|
+// Layouts: DEFAULT
+
+//--------------------------| Root
+.root {
+  @include scaler(
+    padding-left,
+    map-get($roles-spaces-min, 'app'),
+    map-get($roles-spaces-max, 'app')
+  );
+  @include scaler(
+    padding-right,
+    map-get($roles-spaces-min, 'app'),
+    map-get($roles-spaces-max, 'app')
+  );
+  @include padding-v(rem(map-get($roles-spaces-min, 'app')));
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //min-width: map-get($swatch-screens, 'min');
+  max-width: map-get($swatch-screens, 'max');
+  min-height: 100vh;
+  margin: 0 auto;
+  font: map-get($roles-typo-font-weights, 'base')
+    map-get($roles-typo-font-sizes, 'base')
+    map-get($roles-typo-font-families, 'base');
+  background-color: map-get($roles-col-backgrounds, 'app');
+
+  main {
+    flex: 1;
+    margin-top: rem(map-get($roles-spaces-min, 'organisms'));
+    margin-bottom: rem(map-get($roles-spaces-min, 'organisms') * 2);
+
+    @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+      max-width: 30rem;
+    }
+
+    @media (min-width: #{map-get($roles-breakpoints, 'text')}) {
+      max-width: 54rem;
+    }
+  }
+}
+
+//--------------------------| Print styles
+@media print {
+  $gap: map-get($roles-spaces-print, 'app');
+
+  .root {
+    padding: 0 $gap;
+
+    main {
+      column-gap: $gap;
+    }
+
+    footer {
+      padding-bottom: 1.6rem;
+    }
+  }
+}

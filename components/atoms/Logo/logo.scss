@@ -1,0 +1,8 @@
+// ===================================================|
+// Atoms: LOGO
+
+//--------------------------| Root
+.root {
+  width: rem($roles-size-logo);
+  height: rem($roles-size-logo / map-get($roles-ratios, 'logo'));
+}

@@ -1,0 +1,10 @@
+// ===================================================|
+// Organisms: HEADER
+
+//--------------------------| Root
+.root {
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  user-select: none;
+}

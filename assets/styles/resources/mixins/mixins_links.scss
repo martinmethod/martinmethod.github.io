@@ -1,0 +1,38 @@
+// ===================================================|
+// Mixins: LINKS
+
+//--------------------------| Link color
+@mixin link-color($col) {
+  color: $col;
+}
+
+//--------------------------| Link generator
+@mixin link-styles-generator() {
+  $col-normal: map-get($roles-col-links, 'link');
+  $col-hover: map-get($roles-col-links, 'hover');
+  $col-active: map-get($roles-col-links, 'active');
+
+  span {
+    border-bottom: map-get($roles-borders-underlines, 'link');
+    transition: all map-get($roles-transitions, 'link') ease-in-out;
+  }
+
+  &,
+  &:visited:not(:hover):not(:active) span {
+    @include link-color($col-normal);
+  }
+
+  @media (hover: hover) {
+    &:hover:not(:active) span {
+      @include link-color($col-hover);
+
+      border-bottom-color: transparent;
+    }
+  }
+
+  &:active span {
+    @include link-color($col-active);
+
+    border-bottom-color: transparent;
+  }
+}

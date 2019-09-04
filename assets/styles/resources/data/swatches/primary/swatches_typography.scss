@@ -1,0 +1,31 @@
+// ===================================================|
+// Swatches: TYPOGRAPHY
+// TODO: Review what's needed here
+
+//--------------------------| Font families
+$swatch-font-families: (
+  'home-sans': 'home-sans, sans-serif'
+);
+
+//--------------------------| Font sizes
+$swatch-typo-font-sizes: (
+  '10': rem(10),
+  '12': rem(12),
+  '14': rem(14),
+  '16': rem(16),
+  '34': rem(34)
+);
+
+//--------------------------| Font weights
+$swatch-font-weights: (
+  'light': 100,
+  'regular': 400,
+  'bold': 700
+);
+
+//--------------------------| Line-heights
+$swatch-line-heights: (
+  'normal': normal,
+  '100%': 1,
+  '140%': 1.4
+);
