@@ -26,6 +26,7 @@
 //--------------------------| Print styles
 @media print {
   .root {
+    justify-content: flex-start;
     padding-bottom: 5rem; // Compensates the feeling of bigger empty space at the top
   }
 

@@ -10,9 +10,7 @@ $roles-borders-underlines: (
 );
 
 //--------------------------| Wrappers
-$roles-borders-wrappers: (
-  'avatar': map-get($swatch-borders, '2px-solid-dusty-gray')
-);
+$roles-borders-wrappers: ();
 
 //--------------------------| Radiuses
 $roles-borders-radiuses: (

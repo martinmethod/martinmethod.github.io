@@ -1,6 +1,7 @@
 <article :class="$style.root">
   <div :class="$style.head">
-    <Heading :title="formattedTitle" />
+    <Heading :class="$style.title" :title="formattedTitle" />
+    <Avatar v-if="author && author.avatar" :class="$style.avatar" :src="author.avatar" :alt="author.name" />
   </div>
 
   <div :class="$style.content">
@@ -9,7 +10,10 @@
     </div>
 
     <div :class="$style.foot">
-      <Author v-if="author" :name="author" />
+      <Author
+        v-if="author"
+        :name="author.name"
+      />
     </div>
   </div>
 </article>
