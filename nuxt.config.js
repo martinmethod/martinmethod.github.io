@@ -17,6 +17,10 @@ export default {
     meta: [
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
       { 'http-equiv': 'ScreenOrientation', content: 'autoRotate:disabled' },
+      {
+        name: 'google-site-verification',
+        content: 'snOTH1tf13qAKOX5DLb7DR-Q6tLOmFkQnwBkYptOIXc'
+      },
       { name: 'apple-touch-fullscreen', content: 'yes' },
       // Twitter Card
       { name: 'twitter:title', content: title },
