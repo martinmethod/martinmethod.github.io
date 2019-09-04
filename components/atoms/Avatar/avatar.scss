@@ -17,4 +17,8 @@
 
     border: map-get($swatch-borders, '1px-solid-white');
   }
+
+  @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    @include dimensions-square(rem($roles-size-avatar / 2));
+  }
 }
