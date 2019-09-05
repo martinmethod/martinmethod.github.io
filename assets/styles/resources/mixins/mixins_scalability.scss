@@ -12,13 +12,13 @@
   $max-vh: 800
 ) {
   & {
-    #{$property}: 4.06vw;
+    #{$property}: #{strip-unit(($min-vw * 0.9796) * $min-size) / 1000}vw; // 0.9796 fixes wrong calculations in Chrome
 
     @media screen and (min-width: $min-vw) {
       #{$property}: get-progressive-calc($min-size, $max-size);
     }
 
-    @media screen and (orientation: landscape) and (min-width: $max-vw) {
+    @media screen and (min-width: $max-vw) {
       #{$property}: $max-size;
     }
 

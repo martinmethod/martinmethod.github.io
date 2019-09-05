@@ -31,9 +31,11 @@ body {
 
   -webkit-tap-highlight-color: rgba(map-get($swatch-colors-mono, 'black'), 0);
   color: map-get($roles-col-texts, 'base');
+  user-select: none;
+  cursor: default;
 
   * {
-    @include selection(light(map-get($swatch-colors-brand, 'blue'), 66%));
+    //@include selection(light(map-get($swatch-colors-brand, 'blue'), 66%));
   }
 }
 
@@ -51,7 +53,6 @@ a {
 //--------------------------| Images
 img {
   pointer-events: none;
-  user-select: none;
 }
 
 //--------------------------| Graphics

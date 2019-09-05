@@ -19,6 +19,13 @@
   }
 
   @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
-    @include dimensions-square(rem($roles-size-avatar / 2));
+    @include dimensions-square(rem($roles-size-avatar * 0.67));
+  }
+}
+
+//--------------------------| Print styles
+@media print {
+  .root {
+    @include dimensions-square(rem($roles-size-avatar));
   }
 }

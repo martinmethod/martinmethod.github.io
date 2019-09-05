@@ -14,8 +14,8 @@ $roles-typo-font-sizes-base: (
 
 //--------------------------| Font sizes hierarchy
 $roles-typo-font-sizes: (
-  'base': map-get($swatch-typo-font-sizes, '16'),
-  'title': map-get($swatch-typo-font-sizes, '34'),
+  'base': map-get($swatch-typo-font-sizes, '15'),
+  'title': map-get($swatch-typo-font-sizes, '32'),
   'author': map-get($swatch-typo-font-sizes, '14'),
   'link': map-get($swatch-typo-font-sizes, '14'),
   'footer': map-get($swatch-typo-font-sizes, '12')
@@ -23,7 +23,7 @@ $roles-typo-font-sizes: (
 
 //--------------------------| Line-heights
 $roles-typo-line-heights: (
-  'text': map-get($swatch-line-heights, '140%')
+  'text': map-get($swatch-line-heights, '150%')
 );
 
 //--------------------------| Font weights
