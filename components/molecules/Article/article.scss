@@ -47,3 +47,10 @@
 .foot {
   margin-top: rem(map-get($roles-spaces-min, 'molecules'));
 }
+
+//--------------------------| Print styles
+@media print {
+  .content {
+    margin-top: rem(map-get($roles-spaces-min, 'molecules'));
+  }
+}
