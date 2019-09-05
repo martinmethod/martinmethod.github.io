@@ -26,6 +26,6 @@
 //--------------------------| Print styles
 @media print {
   .root {
-    @include dimensions-square(rem($roles-size-avatar));
+    @include dimensions-square(rem($roles-size-avatar * 0.67));
   }
 }
