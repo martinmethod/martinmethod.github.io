@@ -56,8 +56,6 @@
   }
 
   .avatar {
-    @include dimensions-square(rem($roles-size-avatar * 0.67));
-
     position: static;
     transform: translate(30px, -10px);
   }
