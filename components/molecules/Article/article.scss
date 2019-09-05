@@ -9,6 +9,13 @@
 //--------------------------| Head
 .head {
   position: relative;
+
+  @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 //--------------------------| Title
@@ -22,17 +29,18 @@
 
   right: 0;
 
-  @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
-    top: 0;
+  @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    position: static;
+    margin-bottom: rem(map-get($roles-spaces-min, 'atoms') * 2);
     transform: none;
   }
 }
 
 //--------------------------| Content
 .content {
-  margin-top: rem(map-get($roles-spaces-min, 'molecules') * 3);
+  margin-top: rem(map-get($roles-spaces-min, 'molecules') * 2);
 
-  @media (min-width: #{map-get($roles-breakpoints, 'text')}) {
+  @media screen and (min-width: #{map-get($roles-breakpoints, 'text')}) {
     column-count: 2;
     column-gap: rem(map-get($roles-spaces-min, 'molecules') * 2);
   }
