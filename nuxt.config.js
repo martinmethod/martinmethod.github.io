@@ -25,7 +25,7 @@ export default {
       // Twitter Card
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: `${homepage}/cover.png` },
+      { name: 'twitter:image', content: `${homepage}/icon.png` },
       { name: 'twitter:image:alt', content: title }
     ],
     link: [
@@ -213,8 +213,8 @@ export default {
           ogHost: 'http://martinmetodiev.com',
           ogImage: {
             path: '/cover.png',
-            width: 2000,
-            height: 1044,
+            width: 2096,
+            height: 1096,
             type: 'image/png'
           },
           twitterCard: 'summary',
