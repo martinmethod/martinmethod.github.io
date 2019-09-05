@@ -211,6 +211,12 @@ export default {
           description,
           theme_color: '#ffffff',
           ogHost: 'http://martinmetodiev.com',
+          ogImage: {
+            path: '/cover.png',
+            width: 2000,
+            height: 1044,
+            type: 'image/png'
+          },
           twitterCard: 'summary',
           twitterSite: '@martinmetodiev'
         },
