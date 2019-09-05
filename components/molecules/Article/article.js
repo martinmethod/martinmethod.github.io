@@ -14,7 +14,6 @@ export default {
   computed: {
     formattedTitle() {
       return this.title
-        .replace('I ', 'I<br />')
         .replace('convert ', 'convert<br />')
         .replace('design', '<span data-col="o">design</span>')
         .replace('code', '<span data-col="b">code</span>');
