@@ -30,7 +30,7 @@
 
 //--------------------------| Content
 .content {
-  margin-top: rem(map-get($roles-spaces-min, 'molecules') * 4);
+  margin-top: rem(map-get($roles-spaces-min, 'molecules') * 3);
 
   @media (min-width: #{map-get($roles-breakpoints, 'text')}) {
     column-count: 2;
@@ -50,7 +50,19 @@
 
 //--------------------------| Print styles
 @media print {
+  .head {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .avatar {
+    @include dimensions-square(rem($roles-size-avatar * 0.67));
+
+    position: static;
+    transform: translate(30px, -10px);
+  }
+
   .content {
-    margin-top: rem(map-get($roles-spaces-min, 'molecules'));
+    margin-top: rem(map-get($roles-spaces-min, 'molecules') * 2);
   }
 }

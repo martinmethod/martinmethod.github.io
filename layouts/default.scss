@@ -32,11 +32,11 @@
     margin-bottom: rem(map-get($roles-spaces-min, 'organisms') * 2);
 
     @media (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
-      max-width: 30rem;
+      max-width: #{380px / $base-html-font-size}rem;
     }
 
     @media (min-width: #{map-get($roles-breakpoints, 'text')}) {
-      max-width: 54rem;
+      max-width: #{680px / $base-html-font-size}rem;
     }
   }
 }

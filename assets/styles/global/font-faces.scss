@@ -6,18 +6,14 @@ $fonts-dir: '../../fonts';
 $fonts-prefix: 'home';
 
 $font-faces: (
-  // Family: HS Grotesk
-    // Source: https://localfonts.eu/product/hk-grotesk-free/
-    // Design: Stefan Peev
-    'sans':
-    (
-      'family': (
-        'l': map-get($swatch-font-weights, 'light'),
-        'r': map-get($swatch-font-weights, 'regular'),
-        'b': map-get($swatch-font-weights, 'bold')
-      ),
-      'italic': true
-    )
+  'sans': (
+    'family': (
+      'l': map-get($swatch-font-weights, 'light'),
+      'r': map-get($swatch-font-weights, 'regular'),
+      'b': map-get($swatch-font-weights, 'bold')
+    ),
+    'italic': false
+  )
 );
 
 //--------------------------| Mixins
