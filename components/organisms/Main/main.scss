@@ -32,7 +32,6 @@
 
   .links {
     flex-direction: column;
-    margin-top: rem(map-get($roles-spaces-min, 'organisms') * 2);
   }
 
   .links-group {
