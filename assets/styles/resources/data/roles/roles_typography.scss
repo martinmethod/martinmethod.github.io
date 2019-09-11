@@ -3,7 +3,7 @@
 
 //--------------------------| Font families
 $roles-typo-font-families: (
-  'base': unquote(map-get($swatch-font-families, 'home-sans'))
+  'base': unquote(map-get($swatch-font-families, 'mm-sans'))
 );
 
 //--------------------------| Font sizes range
