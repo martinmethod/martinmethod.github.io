@@ -17,9 +17,15 @@ $swatch-typo-font-sizes: (
 
 //--------------------------| Font weights
 $swatch-font-weights: (
-  'light': 100,
+  'hairline': 100,
+  'thin': 200,
+  'light': 300,
   'regular': 400,
-  'bold': 700
+  'medium': 500,
+  'semibold': 600,
+  'bold': 700,
+  'black': 800,
+  'heavy': 900
 );
 
 //--------------------------| Line-heights

@@ -33,6 +33,7 @@ body {
   color: map-get($roles-col-texts, 'base');
   user-select: none;
   cursor: default;
+  font-feature-settings: 'onum', 'ss01' 1;
 
   * {
     //@include selection(light(map-get($swatch-colors-brand, 'blue'), 66%));

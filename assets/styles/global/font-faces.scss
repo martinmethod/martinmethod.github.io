@@ -3,14 +3,20 @@
 
 //--------------------------| Variables
 $fonts-dir: '../../fonts';
-$fonts-prefix: 'home';
+$fonts-prefix: 'mm';
 
 $font-faces: (
   'sans': (
     'family': (
+      'hl': map-get($swatch-font-weights, 'hairline'),
+      't': map-get($swatch-font-weights, 'thin'),
       'l': map-get($swatch-font-weights, 'light'),
       'r': map-get($swatch-font-weights, 'regular'),
-      'b': map-get($swatch-font-weights, 'bold')
+      'm': map-get($swatch-font-weights, 'medium'),
+      'sb': map-get($swatch-font-weights, 'semibold'),
+      'b': map-get($swatch-font-weights, 'bold'),
+      'bl': map-get($swatch-font-weights, 'black'),
+      'h': map-get($swatch-font-weights, 'heavy')
     ),
     'italic': false
   )

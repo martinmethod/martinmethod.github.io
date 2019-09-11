@@ -2,7 +2,7 @@
   "name": "homepage",
   "title": "Martin Metodiev",
   "description": "Martin Metodiev’s personal webpage",
-  "version": "2.1.7",
+  "version": "2.2.0",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "postinstall": "cp -r node_modules/mm-atomic-pack/config/. . && cp -r node_modules/mm-atomic-pack/assets/. ./assets"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
@@ -43,6 +44,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/style-resources": "^1.0.0",
     "contentful": "^7.9.1",
+    "mm-atomic-pack": "https://github.com/martinmethod/mm-atomic-pack#v1.0.2",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.9.2",
     "stylelint": "^10.1.0",
