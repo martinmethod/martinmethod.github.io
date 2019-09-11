@@ -1,6 +1,6 @@
 import { createClient } from 'contentful';
 import { accessToken, space } from '~/contentful.json';
-import { contentfulLayout } from '~/page.json';
+import { contentfulLayout } from '~/site.json';
 
 const apiClient = createClient({
   environment: process.env.NODE_ENV === 'development' ? 'master' : 'production',
