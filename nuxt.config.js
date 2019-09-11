@@ -1,6 +1,6 @@
 import webpack from 'webpack';
 import banner from './banner.js';
-import { id as ga } from './config/ga.json';
+import { googleAnalyticsCode } from './site.json';
 
 import { author, description, homepage, title } from './package.json';
 
@@ -197,7 +197,7 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: ga
+        id: googleAnalyticsCode
       }
     ],
     [
