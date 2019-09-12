@@ -1,12 +1,12 @@
 // ===================================================|
 // Molecules: ARTICLE
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   //
 }
 
-//--------------------------| Head
+// -------------------------| Head
 .head {
   position: relative;
 
@@ -18,12 +18,12 @@
   }
 }
 
-//--------------------------| Title
+// -------------------------| Title
 .title {
   //
 }
 
-//--------------------------| Avatar
+// -------------------------| Avatar
 .avatar {
   @include absolute-centered-y();
 
@@ -36,7 +36,7 @@
   }
 }
 
-//--------------------------| Content
+// -------------------------| Content
 .content {
   margin-top: rem(map-get($roles-spaces-min, 'molecules') * 2);
 
@@ -46,17 +46,17 @@
   }
 }
 
-//--------------------------| Text
+// -------------------------| Text
 .text {
   //
 }
 
-//--------------------------| Foot
+// -------------------------| Foot
 .foot {
   margin-top: rem(map-get($roles-spaces-min, 'molecules'));
 }
 
-//--------------------------| Print styles
+// -------------------------| Print styles
 @media print {
   .head {
     display: flex;

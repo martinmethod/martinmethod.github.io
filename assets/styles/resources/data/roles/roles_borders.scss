@@ -1,18 +1,24 @@
 // ===================================================|
 // Roles: BORDERS
 
-//--------------------------| Dividers
-$roles-borders-dividers: ();
+// -------------------------| Dividers
+$roles-borders-dividers: map-merge($roles-borders-dividers, ());
 
-//--------------------------| Underlines
-$roles-borders-underlines: (
-  'link': map-get($swatch-borders, '1px-dotted-light-blue')
+// -------------------------| Underlines
+$roles-borders-underlines: map-merge(
+  $roles-borders-underlines,
+  (
+    'link': map-get($swatch-borders, '1px-dotted-light-blue')
+  )
 );
 
-//--------------------------| Wrappers
-$roles-borders-wrappers: ();
+// -------------------------| Wrappers
+$roles-borders-wrappers: map-merge($roles-borders-wrappers, ());
 
-//--------------------------| Radiuses
-$roles-borders-radiuses: (
-  'avatar': map-get($swatch-border-radiuses, 'circle')
+// -------------------------| Radiuses
+$roles-borders-radiuses: map-merge(
+  $roles-borders-radiuses,
+  (
+    'avatar': map-get($swatch-border-radiuses, 'circle')
+  )
 );

@@ -1,6 +1,4 @@
 // ===================================================|
 // Swatches: BACKGROUNDS
 
-$swatch-backgrounds: (
-  'white': map-get($swatch-colors-mono, 'white')
-);
+$swatch-backgrounds: map-merge($swatch-backgrounds, ());

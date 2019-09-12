@@ -1,12 +1,12 @@
 // ===================================================|
 // Mixins: LINKS
 
-//--------------------------| Link color
+// -------------------------| Link color
 @mixin link-color($col) {
   color: $col;
 }
 
-//--------------------------| Link generator
+// -------------------------| Link generator
 @mixin link-styles-generator() {
   $col-normal: map-get($roles-col-links, 'link');
   $col-hover: map-get($roles-col-links, 'hover');

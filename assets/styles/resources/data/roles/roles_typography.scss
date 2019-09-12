@@ -1,18 +1,10 @@
 // ===================================================|
 // Roles: TYPOGRAPHY
 
-//--------------------------| Font families
-$roles-typo-font-families: (
-  'base': unquote(map-get($swatch-font-families, 'mm-sans'))
-);
+// -------------------------| Font families
+$roles-typo-font-families: map-merge($roles-typo-font-families, ());
 
-//--------------------------| Font sizes range
-$roles-typo-font-sizes-base: (
-  'min': $base-html-font-size,
-  'max': $base-html-font-size * map-get($roles-ratios, 'font')
-);
-
-//--------------------------| Font sizes hierarchy
+// -------------------------| Font sizes hierarchy
 $roles-typo-font-sizes: (
   'base': map-get($swatch-typo-font-sizes, '15'),
   'title': map-get($swatch-typo-font-sizes, '32'),
@@ -21,16 +13,24 @@ $roles-typo-font-sizes: (
   'footer': map-get($swatch-typo-font-sizes, '12')
 );
 
-//--------------------------| Line-heights
-$roles-typo-line-heights: (
-  'text': map-get($swatch-line-heights, '150%')
+// -------------------------| Font sizes range
+$roles-typo-font-sizes-base: (
+  'min': $base-html-font-size,
+  'max': $base-html-font-size * map-get($roles-ratios, 'font')
 );
 
-//--------------------------| Font weights
-$roles-typo-font-weights: (
-  'title': map-get($swatch-font-weights, 'bold'),
-  'base': map-get($swatch-font-weights, 'regular'),
-  'author': map-get($swatch-font-weights, 'light'),
-  'link': map-get($swatch-font-weights, 'light'),
-  'footer': map-get($swatch-font-weights, 'light')
+// -------------------------| Line-heights
+$roles-typo-line-heights: map-merge(
+  $roles-typo-line-heights,
+  (
+    'text': map-get($swatch-line-heights, '150%')
+  )
+);
+
+// -------------------------| Font weights
+$roles-typo-font-weights: map-merge(
+  $roles-typo-font-weights,
+  (
+    'author': map-get($swatch-font-weights, 'light')
+  )
 );

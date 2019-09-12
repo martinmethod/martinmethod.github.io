@@ -1,7 +1,7 @@
 // ===================================================|
 // Organisms: MAIN
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   display: flex;
   flex-direction: column;
@@ -9,21 +9,21 @@
   justify-content: center;
 }
 
-//--------------------------| Links
+// -------------------------| Links
 .links {
   display: flex;
   justify-content: center;
   margin-top: rem(map-get($roles-spaces-min, 'organisms'));
 }
 
-//--------------------------| Links group
+// -------------------------| Links group
 .links-group {
   + .links-group {
     margin-left: rem(map-get($roles-spaces-min, 'molecules') * 2);
   }
 }
 
-//--------------------------| Print styles
+// -------------------------| Print styles
 @media print {
   .root {
     justify-content: flex-start;

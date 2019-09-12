@@ -1,7 +1,7 @@
 // ===================================================|
 // Atoms: AVATAR
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   @include dimensions-square(rem($roles-size-avatar));
 

@@ -1,7 +1,7 @@
 // ===================================================|
 // Layouts: DEFAULT
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   @include scaler(
     padding-left,
@@ -41,20 +41,20 @@
   }
 }
 
-//--------------------------| Print styles
+// -------------------------| Print styles
 @media print {
-  $gap: map-get($roles-spaces-print, 'app');
-
   .root {
-    padding: 0 $gap;
+    padding: 0;
 
     main {
-      column-gap: $gap;
       margin-bottom: 0;
     }
 
     footer {
-      padding-bottom: 1.6rem;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
 }

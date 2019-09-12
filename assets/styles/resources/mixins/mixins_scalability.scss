@@ -1,7 +1,7 @@
 // ===================================================|
 // Mixins: SCALABILITY
 
-//--------------------------| Scaler
+// -------------------------| Scaler
 @mixin scaler(
   $property,
   $min-size,
@@ -11,34 +11,25 @@
   $min-vh: 600,
   $max-vh: 800
 ) {
-  & {
-    #{$property}: #{strip-unit(($min-vw * 0.9796) * $min-size) / 1000}vw; // 0.9796 fixes wrong calculations in Chrome
+  #{$property}: #{strip-unit(($min-vw * 0.9796) * $min-size) / 1000}vw; // 0.9796 fixes wrong calculations in Chrome
 
-    @media screen and (min-width: $min-vw) {
-      #{$property}: get-progressive-calc($min-size, $max-size);
-    }
+  @media screen and (min-width: $min-vw) {
+    #{$property}: get-progressive-calc($min-size, $max-size, $min-vw, $max-vw);
+  }
 
-    @media screen and (min-width: $max-vw) {
-      #{$property}: $max-size;
-    }
+  @media screen and (min-width: $max-vw) {
+    #{$property}: $max-size;
+  }
 
-    @if $property == font-size {
-      @media screen and (orientation: landscape) and (min-width: #{map-get($roles-breakpoints, 'text')}) and (max-height: #{map-get($roles-breakpoints, 'tight-height') - 1}) {
-        #{$property}: get-progressive-calc(
-          $min-size * 0.8,
-          $max-size * 0.8,
-          vh
-        );
-      }
+  @if $property == font-size {
+    @media screen and (orientation: landscape) and (min-width: #{map-get($roles-breakpoints, 'text')}) and (max-height: #{map-get($roles-breakpoints, 'tight-height') - 1}) {
+      #{$property}: get-progressive-calc(
+        $min-size * 0.8,
+        $max-size * 0.8,
+        $min-vw,
+        $max-vw,
+        vh
+      );
     }
   }
-}
-
-//--------------------------| Side spacer
-@mixin side-spacer(
-  $min: map-get($roles-spaces-min, 'page'),
-  $max: map-get($roles-spaces-max, 'page')
-) {
-  @include scaler(padding-left, $min, $max);
-  @include scaler(padding-right, $min, $max);
 }

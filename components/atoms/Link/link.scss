@@ -1,27 +1,27 @@
 // ===================================================|
 // Atoms: LINK
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   @include link-styles-generator();
 
   display: flex;
 }
 
-//--------------------------| Icon
+// -------------------------| Icon
 .icon {
   @include dimensions-square(rem($roles-size-link-icon));
 
   margin-right: rem(map-get($roles-spaces-min, 'text-icon'));
 }
 
-//--------------------------| Label
+// -------------------------| Label
 .label {
   font-size: map-get($roles-typo-font-sizes, 'link');
   font-weight: map-get($roles-typo-font-weights, 'link');
 }
 
-//--------------------------| Print styles
+// -------------------------| Print styles
 @media print {
   .root::after {
     content: attr(href);

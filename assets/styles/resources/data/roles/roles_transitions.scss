@@ -1,6 +1,4 @@
 // ===================================================|
 // Roles: TRANSITIONS
 
-$roles-transitions: (
-  'link': map-get($swatch-transitions, '100ms')
-);
+$roles-transitions: map-merge($roles-transitions, ());

@@ -1,12 +1,12 @@
 // ===================================================|
-// Global: APP
+// General: APP
 
-//--------------------------| __nuxt container
+// -------------------------| __nuxt container
 body > div {
   //
 }
 
-//--------------------------| Colored labels
+// -------------------------| Colored labels
 [data-col='o'] {
   color: map-get($roles-col-labels, 'design');
 }
