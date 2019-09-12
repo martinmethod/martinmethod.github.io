@@ -5,8 +5,8 @@ import splashscreens from 'mm-atomic-pack/configs/nuxt/splashscreens';
 import buildModules from 'mm-atomic-pack/configs/nuxt/buildModules';
 import modules from 'mm-atomic-pack/configs/nuxt/modules';
 import build from 'mm-atomic-pack/configs/nuxt/build';
-import banner from './banner';
-import { author, description, homepage, title } from './package.json';
+import banner from 'mm-atomic-pack/configs/nuxt/banner';
+import { author, description, homepage, title, version } from './package.json';
 import { googleAnalyticsCode, googleSiteVerification } from './site.json';
 
 export default {
@@ -60,5 +60,5 @@ export default {
   /*
    ** Build configuration
    */
-  build: build({ banner })
+  build: build({ banner: banner({ title, homepage, author, version }) })
 };
