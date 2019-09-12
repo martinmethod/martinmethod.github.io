@@ -1,13 +1,5 @@
-import { createClient } from 'contentful';
-import { accessToken, space } from '~/contentful.json';
+import apiClient from '~/node_modules/mm-atomic-pack/configs/api/contentful';
 import { contentfulLayout } from '~/site.json';
-
-const apiClient = createClient({
-  environment: process.env.NODE_ENV === 'development' ? 'master' : 'production',
-  space,
-  accessToken,
-  resolveLinks: true
-});
 
 export default {
   getContent() {
