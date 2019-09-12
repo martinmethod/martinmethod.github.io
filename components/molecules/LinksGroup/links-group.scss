@@ -1,20 +1,20 @@
 // ===================================================|
 // Molecules: LINKS GROUP
 
-//--------------------------| Root
+// -------------------------| Root
 .root {
   display: flex;
   flex-direction: column;
 }
 
-//--------------------------| Item
+// -------------------------| Item
 .item {
   + .item {
     margin-top: rem(map-get($roles-spaces-min, 'atoms') * 2);
   }
 }
 
-//--------------------------| Print styles
+// -------------------------| Print styles
 @media print {
   .item {
     + .item {
