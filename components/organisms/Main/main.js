@@ -11,8 +11,9 @@ export default {
 
   computed: {
     author() {
+      const { firstName, lastName } = this.identity.fields;
       return {
-        name: `${this.identity.fields.firstName} ${this.identity.fields.lastName}`,
+        name: `${firstName} ${lastName}`,
         avatar: this.identity.fields.avatar
       };
     },
