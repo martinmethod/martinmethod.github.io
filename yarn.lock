@@ -894,6 +894,13 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/dotenv@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.4.1.tgz#dd5abb98e22cc7ae27139d3aa606151034293128"
+  dependencies:
+    consola "^2.10.1"
+    dotenv "^8.1.0"
+
 "@nuxtjs/eslint-config@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-1.1.2.tgz#cde4c950014a781bcc34abbfef9c62546d8fc34c"
@@ -5284,11 +5291,12 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v1.7.0":
-  version "1.7.0"
-  resolved "https://github.com/martinmethod/mm-atomic-pack#6502081b5cffdfeb5fb5d97af6e7aa5403ef9928"
+"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v1.7.1":
+  version "1.7.1"
+  resolved "https://github.com/martinmethod/mm-atomic-pack#4f7383f357a02b7671718078c15f11e49124797d"
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
+    "@nuxtjs/dotenv" "^1.4.1"
     "@nuxtjs/eslint-config" "^1.1.2"
     "@nuxtjs/eslint-module" "^1.0.0"
     "@nuxtjs/google-analytics" "^2.2.0"
@@ -5299,7 +5307,6 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     babel-preset-vue "^2.0.2"
     contentful "^7.9.1"
     css-mqpacker "^7.0.0"
-    dotenv "^8.1.0"
     eslint "^6.3.0"
     eslint-config-prettier "^6.3.0"
     eslint-plugin-nuxt ">=0.4.3"

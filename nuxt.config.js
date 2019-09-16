@@ -9,8 +9,6 @@ import banner from 'mm-atomic-pack/configs/nuxt/banner';
 import { author, description, homepage, title, version } from './package.json';
 import { googleAnalyticsCode, googleSiteVerification } from './site.json';
 
-require('dotenv').config();
-
 export default {
   mode: 'universal',
 
@@ -61,7 +59,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [...modules({ googleAnalyticsCode, title, author, description })],
+  modules: [
+    '@nuxtjs/dotenv',
+    ...modules({ googleAnalyticsCode, title, author, description })
+  ],
 
   /*
    ** Build configuration
