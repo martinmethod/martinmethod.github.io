@@ -39,6 +39,6 @@
     }
   },
   "devDependencies": {
-    "mm-atomic-pack": "https://github.com/martinmethod/mm-atomic-pack#v1.6.0"
+    "mm-atomic-pack": "https://github.com/martinmethod/mm-atomic-pack#v1.7.0"
   }
 }
