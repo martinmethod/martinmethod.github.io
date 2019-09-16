@@ -9,8 +9,14 @@ import banner from 'mm-atomic-pack/configs/nuxt/banner';
 import { author, description, homepage, title, version } from './package.json';
 import { googleAnalyticsCode, googleSiteVerification } from './site.json';
 
+require('dotenv').config();
+
 export default {
   mode: 'universal',
+
+  server: {
+    port: 9000
+  },
 
   /*
    ** Headers of the page

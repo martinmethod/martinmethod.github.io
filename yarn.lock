@@ -2883,6 +2883,10 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
+dotenv@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
+
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -5280,9 +5284,9 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v1.6.0":
-  version "1.6.0"
-  resolved "https://github.com/martinmethod/mm-atomic-pack#3d749dbd2a937fcc6ff9e3399b5731892abdc4ab"
+"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v1.7.0":
+  version "1.7.0"
+  resolved "https://github.com/martinmethod/mm-atomic-pack#6502081b5cffdfeb5fb5d97af6e7aa5403ef9928"
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
     "@nuxtjs/eslint-config" "^1.1.2"
@@ -5295,6 +5299,7 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     babel-preset-vue "^2.0.2"
     contentful "^7.9.1"
     css-mqpacker "^7.0.0"
+    dotenv "^8.1.0"
     eslint "^6.3.0"
     eslint-config-prettier "^6.3.0"
     eslint-plugin-nuxt ">=0.4.3"
