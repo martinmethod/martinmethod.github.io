@@ -12,9 +12,9 @@
   > *:first-child {
     &::first-letter {
       float: left;
-      padding-right: 0.5rem;
-      margin: 0 0 -0.8rem 0.3rem;
-      font-size: 4.9rem;
+      padding-right: rem(6.5px);
+      margin: 0 0 -#{rem(10.4px)} rem(4px);
+      font-size: rem(72px);
       font-weight: bold;
       line-height: 1;
       color: map-get($swatch-colors-mono, 'dusty-gray');
@@ -24,7 +24,7 @@
   @-moz-document url-prefix('') {
     > *:first-child {
       &::first-letter {
-        margin-top: 1.1rem;
+        margin-top: rem(14.2px);
       }
     }
   }
