@@ -3,5 +3,7 @@
 
 // -------------------------| Root
 .root {
-  //
+  a {
+    @include link-styles-generator();
+  }
 }

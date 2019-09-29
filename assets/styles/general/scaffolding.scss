@@ -10,3 +10,10 @@ body {
   cursor: default;
   user-select: none;
 }
+
+// -------------------------| Links
+a {
+  .desktop & {
+    transition: all map-get($roles-transitions, 'link') ease-in-out;
+  }
+}

@@ -5,19 +5,7 @@
 $roles-typo-font-families: map-merge($roles-typo-font-families, ());
 
 // -------------------------| Font sizes hierarchy
-$roles-typo-font-sizes: (
-  'base': map-get($swatch-typo-font-sizes, '15'),
-  'title': map-get($swatch-typo-font-sizes, '32'),
-  'author': map-get($swatch-typo-font-sizes, '14'),
-  'link': map-get($swatch-typo-font-sizes, '14'),
-  'footer': map-get($swatch-typo-font-sizes, '12')
-);
-
-// -------------------------| Font sizes range
-$roles-typo-font-sizes-base: (
-  'min': $base-html-font-size,
-  'max': $base-html-font-size * map-get($roles-ratios, 'font')
-);
+$roles-typo-font-sizes: map-merge($roles-typo-font-sizes, ());
 
 // -------------------------| Line-heights
 $roles-typo-line-heights: map-merge(
@@ -28,9 +16,4 @@ $roles-typo-line-heights: map-merge(
 );
 
 // -------------------------| Font weights
-$roles-typo-font-weights: map-merge(
-  $roles-typo-font-weights,
-  (
-    'author': map-get($swatch-font-weights, 'light')
-  )
-);
+$roles-typo-font-weights: map-merge($roles-typo-font-weights, ());
