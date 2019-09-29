@@ -4,7 +4,6 @@
 // -------------------------| Root
 .root {
   position: relative;
-  display: flex;
   margin-left: rem(
     $roles-size-link-icon + map-get($roles-spaces-min, 'text-icon')
   );
