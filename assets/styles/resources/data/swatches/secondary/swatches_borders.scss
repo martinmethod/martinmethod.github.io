@@ -7,7 +7,8 @@ $swatch-borders: map-merge(
   (
     '1px-solid-white': 1px solid map-get($swatch-colors-mono, 'white'),
     '1px-dotted-light-blue': 1px dotted
-      light(map-get($swatch-colors-brand, 'blue'), 50%)
+      light(map-get($swatch-colors-brand, 'blue'), 50%),
+    '2px-solid-dusty-gray': 2px solid map-get($swatch-colors-mono, 'dusty-gray')
   )
 );
 

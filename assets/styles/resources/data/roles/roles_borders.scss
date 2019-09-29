@@ -13,7 +13,12 @@ $roles-borders-underlines: map-merge(
 );
 
 // -------------------------| Wrappers
-$roles-borders-wrappers: map-merge($roles-borders-wrappers, ());
+$roles-borders-wrappers: map-merge(
+  $roles-borders-wrappers,
+  (
+    'avatar': map-get($swatch-borders, '2px-solid-dusty-gray')
+  )
+);
 
 // -------------------------| Radiuses
 $roles-borders-radiuses: map-merge(

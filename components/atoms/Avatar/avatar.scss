@@ -5,6 +5,14 @@
 .root {
   @include dimensions-square(rem($roles-size-avatar));
 
+  border: map-get($roles-borders-wrappers, 'avatar');
+
+  @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    @include dimensions-square(rem($roles-size-avatar * 1.37));
+
+    margin-top: rem(7px);
+  }
+
   &,
   img {
     display: block;
