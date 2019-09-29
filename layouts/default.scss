@@ -13,7 +13,7 @@
     map-get($roles-spaces-min, 'app'),
     map-get($roles-spaces-max, 'app')
   );
-  @include padding-v(rem(map-get($roles-spaces-min, 'app')));
+  @include padding-v(3rem);
 
   position: relative;
   display: flex;
@@ -26,6 +26,10 @@
     map-get($roles-typo-font-sizes, 'base')
     map-get($roles-typo-font-families, 'base');
   background-color: map-get($roles-col-backgrounds, 'app');
+
+  @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    padding-top: 2rem;
+  }
 
   main {
     flex: 1;

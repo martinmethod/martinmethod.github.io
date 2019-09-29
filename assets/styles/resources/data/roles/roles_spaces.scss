@@ -1,14 +1,14 @@
 // ===================================================|
 // Roles: SPACES
 
-$roles-spaces-min: (
-  'app': map-get($swatch-spaces, '20'),
-  'atoms': map-get($swatch-spaces, '10'),
-  'molecules': map-get($swatch-spaces, '15'),
-  'text-icon': map-get($swatch-spaces, '05'),
-  'organisms': map-get($swatch-spaces, '40')
+$roles-spaces-min: map-merge(
+  $roles-spaces-min,
+  (
+    'atoms': map-get($swatch-spaces, '10'),
+    'molecules': map-get($swatch-spaces, '15'),
+    'text-icon': map-get($swatch-spaces, '05'),
+    'organisms': map-get($swatch-spaces, '40')
+  )
 );
 
-$roles-spaces-max: (
-  'app': map-get($roles-spaces-min, 'app') * map-get($roles-ratios, 'space')
-);
+$roles-spaces-max: map-merge($roles-spaces-max, ());

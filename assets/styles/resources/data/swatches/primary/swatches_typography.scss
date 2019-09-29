@@ -1,11 +1,10 @@
 // ===================================================|
 // Swatches: TYPOGRAPHY
 
-// -------------------------| Font sizes
-$swatch-typo-font-sizes: (
-  '10': rem(10),
-  '12': rem(12),
-  '14': rem(14),
-  '15': rem(15),
-  '32': rem(32)
+// -------------------------| Line-heights
+$swatch-line-heights: map-merge(
+  $swatch-line-heights,
+  (
+    '150%': 1.5
+  )
 );
