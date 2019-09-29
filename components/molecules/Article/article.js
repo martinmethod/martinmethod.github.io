@@ -3,10 +3,10 @@
 
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
-import Heading from '@/components/atoms/Heading';
+import Heading from '@/node_modules/mm-atomic-pack/components/atoms/Heading';
 import TextBlock from '@/components/atoms/Text';
 import Author from '@/components/atoms/Author';
-import Avatar from '@/components/atoms/Avatar';
+import Avatar from '@/node_modules/mm-atomic-pack/components/atoms/Avatar';
 
 export default {
   components: { Heading, TextBlock, Author, Avatar },

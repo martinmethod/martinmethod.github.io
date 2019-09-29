@@ -3,9 +3,6 @@
 
 // -------------------------| Root
 .root {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   font-size: map-get($roles-typo-font-sizes, 'author');
   font-weight: map-get($roles-typo-font-weights, 'author');
   color: map-get($roles-col-texts, 'author');

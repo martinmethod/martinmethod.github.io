@@ -1,10 +1,13 @@
 <div :class="$style.root">
-  <Link
-    v-for="item in items"
-    :key="item.id"
-    :class="$style.item"
-    :icon="item.fields.icon"
-    :name="item.fields.name"
-    :url="item.fields.url"
-  />
+  <span
+      v-for="item in items"
+      :key="item.id"
+      :class="$style.item"
+  >
+    <Link
+      :icon="item.fields.icon"
+      :name="item.fields.name"
+      :url="item.fields.url"
+    />
+  </span>
 </div>

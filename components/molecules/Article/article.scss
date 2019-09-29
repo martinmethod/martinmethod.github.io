@@ -30,6 +30,8 @@
   right: 0;
 
   @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
+    @include dimensions-square(rem($roles-size-avatar * 1.37) !important);
+
     position: static;
     margin-bottom: rem(map-get($roles-spaces-min, 'atoms') * 2);
     transform: none;
