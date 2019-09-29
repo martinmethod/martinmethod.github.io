@@ -13,7 +13,7 @@
     map-get($roles-spaces-min, 'app'),
     map-get($roles-spaces-max, 'app')
   );
-  @include padding-v(3rem);
+  @include padding-v(rem(40px));
 
   position: relative;
   display: flex;
@@ -22,13 +22,13 @@
   max-width: map-get($swatch-screens, 'max');
   min-height: 100vh;
   margin: 0 auto;
-  font: map-get($roles-typo-font-weights, 'base')
-    map-get($roles-typo-font-sizes, 'base')
-    map-get($roles-typo-font-families, 'base');
+  font: map-get($roles-typo-font-weights, 'body')
+    map-get($roles-typo-font-sizes, 'body')
+    map-get($roles-typo-font-families, 'body');
   background-color: map-get($roles-col-backgrounds, 'app');
 
   @media screen and (max-width: #{map-get($roles-breakpoints, 'text') - 1}) {
-    padding-top: 2rem;
+    padding-top: rem(26px);
   }
 
   main {
