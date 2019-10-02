@@ -12,15 +12,8 @@ export const mutations = {
 
 export const actions = {
   async fetchContent({ commit }) {
-    try {
-      const response = await ContentfulService.getContent();
+    const response = await ContentfulService.getContent();
 
-      return commit('SET_CONTENT', response.items[0].fields);
-    } catch (e) {
-      $nuxt.error({
-        statusCode: e.response.status,
-        message: e.response.data.message
-      });
-    }
+    return commit('SET_CONTENT', response.items[0].fields);
   }
 };
