@@ -1,11 +1,11 @@
-import meta from 'mm-atomic-pack/configs/nuxt/meta';
+import meta from 'dev-assets/configs/nuxt/meta';
+import splashscreens from 'dev-assets/configs/nuxt/splashscreens';
+import buildModules from 'dev-assets/configs/nuxt/buildModules';
+import modules from 'dev-assets/configs/nuxt/modules';
+import build from 'dev-assets/configs/nuxt/build';
+import banner from 'dev-assets/configs/nuxt/banner';
 import css from 'mm-atomic-pack/configs/nuxt/css';
 import styleResources from 'mm-atomic-pack/configs/nuxt/styleResources';
-import splashscreens from 'mm-atomic-pack/configs/nuxt/splashscreens';
-import buildModules from 'mm-atomic-pack/configs/nuxt/buildModules';
-import modules from 'mm-atomic-pack/configs/nuxt/modules';
-import build from 'mm-atomic-pack/configs/nuxt/build';
-import banner from 'mm-atomic-pack/configs/nuxt/banner';
 import { author, description, homepage, title, version } from './package.json';
 import { googleAnalyticsCode, googleSiteVerification } from './site.json';
 
@@ -64,7 +64,13 @@ export default {
    */
   modules: [
     '@nuxtjs/dotenv',
-    ...modules({ googleAnalyticsCode, title, author, description })
+    ...modules({
+      googleAnalyticsCode,
+      title,
+      author,
+      description,
+      twitter: '@martinmetodiev'
+    })
   ],
 
   /*
