@@ -2827,9 +2827,9 @@ detect-libc@^1.0.2, detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
-"dev-assets@https://github.com/martinmethod/dev-assets#v1.0.2":
-  version "1.0.2"
-  resolved "https://github.com/martinmethod/dev-assets#f4622468e8ccc194c8d0b54dba94e855b300399d"
+"dev-assets@https://github.com/martinmethod/dev-assets#v1.0.3":
+  version "1.0.3"
+  resolved "https://github.com/martinmethod/dev-assets#96bfe4975b619769d2e6d62b29139551d411985e"
   dependencies:
     "@nuxtjs/dotenv" "^1.4.1"
     "@nuxtjs/eslint-config" "^1.1.2"
@@ -5412,9 +5412,9 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.0.0":
-  version "2.0.0"
-  resolved "https://github.com/martinmethod/mm-atomic-pack#35427825927655061579d82279ea24f09524f9c6"
+"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.0.1":
+  version "2.0.1"
+  resolved "https://github.com/martinmethod/mm-atomic-pack#82aa715595c04338f9464fbd07619011bcf3372c"
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
     contentful "^7.10.0"

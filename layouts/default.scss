@@ -18,8 +18,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  //min-width: map-get($swatch-screens, 'min');
-  max-width: map-get($swatch-screens, 'max');
+  //min-width: map-get($roles-screens, 'min');
+  max-width: map-get($roles-screens, 'max');
   min-height: 100vh;
   margin: 0 auto;
   font: map-get($roles-typo-font-weights, 'body')

@@ -6,8 +6,8 @@
   $property,
   $min-size,
   $max-size,
-  $min-vw: map-get($swatch-screens, 'min'),
-  $max-vw: map-get($swatch-screens, 'max'),
+  $min-vw: map-get($roles-screens, 'min'),
+  $max-vw: map-get($roles-screens, 'max'),
   $min-vh: 600,
   $max-vh: 800
 ) {
