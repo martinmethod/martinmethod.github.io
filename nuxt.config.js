@@ -1,11 +1,11 @@
-import meta from 'dev-assets/configs/nuxt/meta';
-import splashscreens from 'dev-assets/configs/nuxt/splashscreens';
-import buildModules from 'dev-assets/configs/nuxt/buildModules';
-import modules from 'dev-assets/configs/nuxt/modules';
-import build from 'dev-assets/configs/nuxt/build';
-import banner from 'dev-assets/configs/nuxt/banner';
-import css from 'mm-atomic-pack/configs/nuxt/css';
-import styleResources from 'mm-atomic-pack/configs/nuxt/styleResources';
+import meta from 'dev-assets/config/nuxt/meta';
+import splashscreens from 'dev-assets/config/nuxt/splashscreens';
+import buildModules from 'dev-assets/config/nuxt/buildModules';
+import modules from 'dev-assets/config/nuxt/modules';
+import build from 'dev-assets/config/nuxt/build';
+import banner from 'dev-assets/config/nuxt/banner';
+import css from 'mm-atomic-pack/config/nuxt/css';
+import styleResources from 'mm-atomic-pack/config/nuxt/styleResources';
 import { author, description, homepage, title, version } from './package.json';
 import { googleAnalyticsCode, googleSiteVerification } from './site.json';
 

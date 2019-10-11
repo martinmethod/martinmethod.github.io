@@ -1,4 +1,4 @@
-import apiClient from '~/node_modules/mm-atomic-pack/configs/api/contentful';
+import apiClient from '~/node_modules/mm-atomic-pack/config/api/contentful';
 import { contentfulLayout } from '~/site.json';
 
 export default {
