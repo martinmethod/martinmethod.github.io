@@ -8,12 +8,7 @@ $roles-typo-font-families: map-merge($roles-typo-font-families, ());
 $roles-typo-font-sizes: map-merge($roles-typo-font-sizes, ());
 
 // -------------------------| Line-heights
-$roles-typo-line-heights: map-merge(
-  $roles-typo-line-heights,
-  (
-    'text': map-get($swatch-line-heights, '150%')
-  )
-);
+$roles-typo-line-heights: map-merge($roles-typo-line-heights, ());
 
 // -------------------------| Font weights
 $roles-typo-font-weights: map-merge($roles-typo-font-weights, ());

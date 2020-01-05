@@ -14,7 +14,6 @@
   @include dimensions-square(rem($roles-size-link-icon));
 
   position: absolute;
-  top: rem(-1px);
   right: 100%;
   margin-right: rem(map-get($roles-spaces-min, 'text-icon'));
 }
