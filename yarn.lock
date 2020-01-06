@@ -908,18 +908,18 @@
     consola "^2.10.1"
     dotenv "^8.1.0"
 
-"@nuxtjs/eslint-config@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-1.1.2.tgz#cde4c950014a781bcc34abbfef9c62546d8fc34c"
+"@nuxtjs/eslint-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-2.0.0.tgz#8030d4bfd2bf6141eed23c78eaa26c98357b793f"
   dependencies:
-    eslint-config-standard "^12.0.0"
-    eslint-plugin-import "^2.18.0"
-    eslint-plugin-jest "^22.10.0"
-    eslint-plugin-node "^9.1.0"
+    eslint-config-standard "^14.1.0"
+    eslint-plugin-import "^2.18.2"
+    eslint-plugin-jest "^23.0.4"
+    eslint-plugin-node "^10.0.0"
     eslint-plugin-promise "^4.2.1"
-    eslint-plugin-standard "^4.0.0"
-    eslint-plugin-unicorn "^9.1.1"
-    eslint-plugin-vue "^5.2.3"
+    eslint-plugin-standard "^4.0.1"
+    eslint-plugin-unicorn "^13.0.0"
+    eslint-plugin-vue "^6.0.1"
 
 "@nuxtjs/eslint-module@^1.1.0":
   version "1.1.0"
@@ -928,13 +928,13 @@
     consola "^2.10.1"
     eslint-loader "^3.0.0"
 
-"@nuxtjs/google-analytics@^2.2.1":
+"@nuxtjs/google-analytics@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.2.2.tgz#ccd6ce064b0c5b4d397e8a46fcf9ed75b4369ce9"
   dependencies:
     vue-analytics "^5.18.0"
 
-"@nuxtjs/pwa@^3.0.0-0":
+"@nuxtjs/pwa@^3.0.0-beta.19":
   version "3.0.0-beta.19"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.0.0-beta.19.tgz#4685c8137a5b588126b3ee4d469f6806423f958f"
   dependencies:
@@ -953,7 +953,7 @@
     glob-all "^3.1.0"
     sass-resources-loader "^2.0.0"
 
-"@nuxtjs/stylelint-module@^3.0.1":
+"@nuxtjs/stylelint-module@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/stylelint-module/-/stylelint-module-3.1.1.tgz#12faefc8f8be2c36bd6dae1f0305b83920a2143f"
   dependencies:
@@ -1032,20 +1032,25 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
-"@typescript-eslint/experimental-utils@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-1.13.0.tgz#b08c60d780c0067de2fb44b04b432f540138301e"
+"@typescript-eslint/experimental-utils@^2.5.0":
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.14.0.tgz#e9179fa3c44e00b3106b85d7b69342901fb43e3b"
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "1.13.0"
-    eslint-scope "^4.0.0"
+    "@typescript-eslint/typescript-estree" "2.14.0"
+    eslint-scope "^5.0.0"
 
-"@typescript-eslint/typescript-estree@1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-1.13.0.tgz#8140f17d0f60c03619798f1d628b8434913dc32e"
+"@typescript-eslint/typescript-estree@2.14.0":
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.14.0.tgz#c67698acdc14547f095eeefe908958d93e1a648d"
   dependencies:
+    debug "^4.1.1"
+    eslint-visitor-keys "^1.1.0"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
     lodash.unescape "4.0.1"
-    semver "5.5.0"
+    semver "^6.3.0"
+    tsutils "^3.17.1"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -1265,7 +1270,7 @@ accepts@~1.3.5, accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acorn-jsx@^5.0.0, acorn-jsx@^5.1.0:
+acorn-jsx@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.1.0.tgz#294adb71b57398b0680015f0a38c563ee1db5384"
 
@@ -1273,7 +1278,7 @@ acorn-walk@^6.1.1:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
 
-acorn@^6.0.2, acorn@^6.0.7, acorn@^6.2.1:
+acorn@^6.0.7, acorn@^6.2.1:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
 
@@ -2353,9 +2358,9 @@ contentful-sdk-core@^6.4.0:
     lodash "^4.17.10"
     qs "^6.5.2"
 
-contentful@^7.10.0:
-  version "7.11.3"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-7.11.3.tgz#92b70082ee58d5f5c296d5b644474991d31787ce"
+contentful@^7.11.4:
+  version "7.11.4"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-7.11.4.tgz#230b809ae2f9ecd06c4788f409a97dc36194c1bc"
   dependencies:
     axios "^0.19.0"
     contentful-resolve-response "^1.1.4"
@@ -2403,7 +2408,7 @@ core-js-compat@^3.6.0:
     browserslist "^4.8.2"
     semver "7.0.0"
 
-core-js@^2.6.5:
+core-js@2.6.11, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
 
@@ -2824,31 +2829,32 @@ detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
-"dev-assets@https://github.com/martinmethod/dev-assets#v1.1.1":
-  version "1.1.1"
-  resolved "https://github.com/martinmethod/dev-assets#90222b2709acfaa7e3618f477a1acfa895d44395"
+"dev-assets@https://github.com/martinmethod/dev-assets#v1.1.2":
+  version "1.1.2"
+  resolved "https://github.com/martinmethod/dev-assets#e85edb8c62340b5218f30996cd8ef4b8de268456"
   dependencies:
     "@nuxtjs/dotenv" "^1.4.1"
-    "@nuxtjs/eslint-config" "^1.1.2"
+    "@nuxtjs/eslint-config" "^2.0.0"
     "@nuxtjs/eslint-module" "^1.1.0"
-    "@nuxtjs/google-analytics" "^2.2.1"
-    "@nuxtjs/pwa" "^3.0.0-0"
+    "@nuxtjs/google-analytics" "^2.2.2"
+    "@nuxtjs/pwa" "^3.0.0-beta.19"
     "@nuxtjs/style-resources" "^1.0.0"
-    "@nuxtjs/stylelint-module" "^3.0.1"
+    "@nuxtjs/stylelint-module" "^3.1.1"
     babel-eslint "^10.0.3"
     babel-preset-vue "^2.0.2"
+    core-js "2.6.11"
     css-mqpacker "^7.0.0"
-    eslint "^6.6.0"
-    eslint-config-prettier "^6.6.0"
+    eslint "^6.8.0"
+    eslint-config-prettier "^6.9.0"
     eslint-plugin-nuxt ">=0.5.0"
-    eslint-plugin-prettier "^3.1.1"
+    eslint-plugin-prettier "^3.1.2"
     fibers "^4.0.2"
-    husky "^3.0.9"
-    lint-staged "^9.4.3"
+    husky "^3.1.0"
+    lint-staged "^9.5.0"
     mobile-device-detect "^0.3.3"
     node-sass "^4.13.0"
     normalize.css "^8.0.1"
-    nuxt "^2.10.2"
+    nuxt "^2.11.0"
     postcss-discard-comments "^4.0.2"
     postcss-easing-gradients "^3.0.1"
     postcss-flexbugs-fixes "^4.1.0"
@@ -2856,16 +2862,16 @@ detect-libc@^1.0.3:
     postcss-preset-env "^6.7.0"
     postcss-utilities "^0.8.4"
     prettier "^1.19.1"
-    sass "^1.23.6"
+    sass "^1.24.2"
     sass-loader "^8.0.0"
     sass-resources "^1.0.3"
-    stylelint "^12.0.0"
-    stylelint-config-prettier "^6.0.0"
+    stylelint "^12.0.1"
+    stylelint-config-prettier "^8.0.0"
     stylelint-config-recess-order "^2.0.3"
-    stylelint-config-sass-guidelines "^6.1.0"
+    stylelint-config-sass-guidelines "^6.2.0"
     stylelint-config-standard "^19.0.0"
-    stylelint-prettier "^1.1.1"
-    stylelint-webpack-plugin "^1.0.4"
+    stylelint-prettier "^1.1.2"
+    stylelint-webpack-plugin "^1.1.2"
     webpack latest
 
 diffie-hellman@^5.0.0:
@@ -3102,22 +3108,22 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-ast-utils@^1.0.0:
+eslint-ast-utils@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/eslint-ast-utils/-/eslint-ast-utils-1.1.0.tgz#3d58ba557801cfb1c941d68131ee9f8c34bd1586"
   dependencies:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-prettier@^6.6.0:
+eslint-config-prettier@^6.9.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.9.0.tgz#430d24822e82f7deb1e22a435bfa3999fae4ad64"
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-standard@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
+eslint-config-standard@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-14.1.0.tgz#b23da2b76fe5a2eba668374f246454e7058f15d4"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -3143,14 +3149,14 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-es@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-1.4.1.tgz#12acae0f4953e76ba444bfd1b2271081ac620998"
+eslint-plugin-es@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-2.0.0.tgz#0f5f5da5f18aa21989feebe8a73eadefb3432976"
   dependencies:
     eslint-utils "^1.4.2"
-    regexpp "^2.0.1"
+    regexpp "^3.0.0"
 
-eslint-plugin-import@^2.18.0:
+eslint-plugin-import@^2.18.2:
   version "2.19.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.19.1.tgz#5654e10b7839d064dd0d46cd1b88ec2133a11448"
   dependencies:
@@ -3167,17 +3173,17 @@ eslint-plugin-import@^2.18.0:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-jest@^22.10.0:
-  version "22.21.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.21.0.tgz#8137294645866636160487d9764224b9a43e2eb1"
+eslint-plugin-jest@^23.0.4:
+  version "23.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.3.0.tgz#b1443d0c46d6a0de9ef3de78176dd6688c7d5326"
   dependencies:
-    "@typescript-eslint/experimental-utils" "^1.13.0"
+    "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-node@^9.1.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-9.2.0.tgz#b1911f111002d366c5954a6d96d3cd5bf2a3036a"
+eslint-plugin-node@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-10.0.0.tgz#fd1adbc7a300cf7eb6ac55cf4b0b6fc6e577f5a6"
   dependencies:
-    eslint-plugin-es "^1.4.1"
+    eslint-plugin-es "^2.0.0"
     eslint-utils "^1.4.2"
     ignore "^5.1.1"
     minimatch "^3.0.4"
@@ -3191,7 +3197,7 @@ eslint-plugin-nuxt@>=0.5.0:
     eslint-plugin-vue "^6.0.0"
     vue-eslint-parser "^7.0.0"
 
-eslint-plugin-prettier@^3.1.1:
+eslint-plugin-prettier@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.2.tgz#432e5a667666ab84ce72f945c72f77d996a5c9ba"
   dependencies:
@@ -3201,41 +3207,39 @@ eslint-plugin-promise@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
 
-eslint-plugin-standard@^4.0.0:
+eslint-plugin-standard@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.1.tgz#ff0519f7ffaff114f76d1bd7c3996eef0f6e20b4"
 
-eslint-plugin-unicorn@^9.1.1:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-9.1.1.tgz#1588a0473f9a0e37cfbbcf7552065a0b0a96ce26"
+eslint-plugin-unicorn@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-13.0.0.tgz#3d73a17cc34ade1aaa02655ae78bbd8a2053fa81"
   dependencies:
+    ci-info "^2.0.0"
     clean-regexp "^1.0.0"
-    eslint-ast-utils "^1.0.0"
-    import-modules "^1.1.0"
-    lodash.camelcase "^4.1.1"
-    lodash.defaultsdeep "^4.6.0"
-    lodash.kebabcase "^4.0.1"
-    lodash.snakecase "^4.0.1"
+    eslint-ast-utils "^1.1.0"
+    eslint-template-visitor "^1.1.0"
+    import-modules "^2.0.0"
+    lodash.camelcase "^4.3.0"
+    lodash.defaultsdeep "^4.6.1"
+    lodash.kebabcase "^4.1.1"
+    lodash.snakecase "^4.1.1"
     lodash.topairs "^4.3.0"
-    lodash.upperfirst "^4.2.0"
-    regexpp "^2.0.1"
+    lodash.upperfirst "^4.3.1"
+    read-pkg-up "^7.0.0"
+    regexpp "^3.0.0"
     reserved-words "^0.1.2"
-    safe-regex "^2.0.1"
+    safe-regex "^2.1.1"
+    semver "^6.3.0"
 
-eslint-plugin-vue@^5.2.3:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-5.2.3.tgz#3ee7597d823b5478804b2feba9863b1b74273961"
-  dependencies:
-    vue-eslint-parser "^5.0.0"
-
-eslint-plugin-vue@^6.0.0:
+eslint-plugin-vue@^6.0.0, eslint-plugin-vue@^6.0.1:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-6.1.2.tgz#4b05c28c83c0ec912669b64dbd998bb8bf692ef6"
   dependencies:
     semver "^5.6.0"
     vue-eslint-parser "^7.0.0"
 
-eslint-scope@^4.0.0, eslint-scope@^4.0.3:
+eslint-scope@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
   dependencies:
@@ -3249,6 +3253,14 @@ eslint-scope@^5.0.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
+eslint-template-visitor@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-template-visitor/-/eslint-template-visitor-1.1.0.tgz#f090d124d1a52e05552149fc50468ed59608b166"
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.1.1"
+    multimap "^1.0.2"
+
 eslint-utils@^1.4.2, eslint-utils@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
@@ -3259,7 +3271,7 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
 
-eslint@^6.6.0:
+eslint@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
   dependencies:
@@ -3305,15 +3317,7 @@ esm@^3.2.25:
   version "3.2.25"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
 
-espree@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-4.1.0.tgz#728d5451e0fd156c04384a7ad89ed51ff54eb25f"
-  dependencies:
-    acorn "^6.0.2"
-    acorn-jsx "^5.0.0"
-    eslint-visitor-keys "^1.0.0"
-
-espree@^6.1.2:
+espree@^6.1.1, espree@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/espree/-/espree-6.1.2.tgz#6c272650932b4f91c3714e5e7b5f5e2ecf47262d"
   dependencies:
@@ -3681,7 +3685,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.0.0:
+find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   dependencies:
@@ -4232,7 +4236,7 @@ human-signals@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
 
-husky@^3.0.9:
+husky@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-3.1.0.tgz#5faad520ab860582ed94f0c1a77f0f04c90b57c0"
   dependencies:
@@ -4306,9 +4310,9 @@ import-lazy@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/import-lazy/-/import-lazy-4.0.0.tgz#e8eb627483a0a43da3c03f3e35548be5cb0cc153"
 
-import-modules@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/import-modules/-/import-modules-1.1.0.tgz#748db79c5cc42bb9701efab424f894e72600e9dc"
+import-modules@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/import-modules/-/import-modules-2.0.0.tgz#9c1e13b4e7a15682f70a6e3fa29534e4540cfc5d"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -4851,7 +4855,7 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
 
-lint-staged@^9.4.3:
+lint-staged@^9.5.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-9.5.0.tgz#290ec605252af646d9b74d73a0fa118362b05a33"
   dependencies:
@@ -4994,11 +4998,11 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
 
-lodash.camelcase@^4.1.1:
+lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
 
-lodash.defaultsdeep@^4.6.0:
+lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
 
@@ -5018,7 +5022,7 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
 
-lodash.kebabcase@^4.0.1, lodash.kebabcase@^4.1.1:
+lodash.kebabcase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
 
@@ -5026,7 +5030,7 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
-lodash.snakecase@^4.0.1:
+lodash.snakecase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
 
@@ -5055,7 +5059,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash.upperfirst@^4.2.0:
+lodash.upperfirst@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/lodash.upperfirst/-/lodash.upperfirst-4.3.1.tgz#1365edf431480481ef0d1c68957a5ed99d49f7ce"
 
@@ -5414,13 +5418,13 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.2.4":
-  version "2.2.4"
-  resolved "https://github.com/martinmethod/mm-atomic-pack#e4b89981992952c654455532d4b83414c83730f9"
+"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.2.5":
+  version "2.2.5"
+  resolved "https://github.com/martinmethod/mm-atomic-pack#869bd421f9a084f01a30fb017403fac5c41f1cfc"
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
-    contentful "^7.10.0"
-    dev-assets "https://github.com/martinmethod/dev-assets#v1.1.1"
+    contentful "^7.11.4"
+    dev-assets "https://github.com/martinmethod/dev-assets#v1.1.2"
 
 mobile-device-detect@^0.3.3:
   version "0.3.3"
@@ -5448,6 +5452,10 @@ ms@2.1.1:
 ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+
+multimap@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/multimap/-/multimap-1.1.0.tgz#5263febc085a1791c33b59bb3afc6a76a2a10ca8"
 
 mustache@^2.3.0:
   version "2.3.2"
@@ -5681,7 +5689,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^2.10.2:
+nuxt@^2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.11.0.tgz#654664fe1a95af2014fd55c38ba2c732bfa5edc5"
   dependencies:
@@ -6992,6 +7000,14 @@ read-pkg-up@^3.0.0:
     find-up "^2.0.0"
     read-pkg "^3.0.0"
 
+read-pkg-up@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-7.0.1.tgz#f3a6135758459733ae2b95638056e1854e7ef507"
+  dependencies:
+    find-up "^4.1.0"
+    read-pkg "^5.2.0"
+    type-fest "^0.8.1"
+
 read-pkg@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
@@ -7107,6 +7123,10 @@ regexp-tree@~0.1.1:
 regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
+
+regexpp@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.0.0.tgz#dd63982ee3300e67b41c1956f850aa680d9d330e"
 
 regexpu-core@^4.6.0:
   version "4.6.0"
@@ -7374,7 +7394,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safe-regex@^2.0.1:
+safe-regex@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/safe-regex/-/safe-regex-2.1.1.tgz#f7128f00d056e2fe5c11e81a1324dd974aadced2"
   dependencies:
@@ -7416,9 +7436,9 @@ sass-resources@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sass-resources/-/sass-resources-1.0.3.tgz#91595b6f2555f09f37a040ff584656bd7b5b6b6b"
 
-sass@^1.23.6:
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.24.0.tgz#e8b9931bc5d18a37d271749311ef2edc83102a77"
+sass@^1.24.2:
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.24.2.tgz#0a0e0f00368be6808b2e94470172266ac45498fe"
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -7455,10 +7475,6 @@ semver-compare@^1.0.0:
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
-
-semver@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
 semver@7.0.0:
   version "7.0.0"
@@ -7976,9 +7992,9 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylelint-config-prettier@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-6.0.0.tgz#600aa218d8e34cf44a025903b0f60c079fd83366"
+stylelint-config-prettier@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.0.tgz#82b36b46fce60e92a1a32dd483ec4e3e857d3af3"
 
 stylelint-config-recess-order@^2.0.3:
   version "2.0.3"
@@ -7990,7 +8006,7 @@ stylelint-config-recommended@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz#e0e547434016c5539fe2650afd58049a2fd1d657"
 
-stylelint-config-sass-guidelines@^6.1.0:
+stylelint-config-sass-guidelines@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-6.2.0.tgz#f71f2b4341b7dc64c6404bd12ef9c2b91512046c"
   dependencies:
@@ -8011,7 +8027,7 @@ stylelint-order@^3.0.0, stylelint-order@^3.0.1:
     postcss "^7.0.17"
     postcss-sorting "^5.0.1"
 
-stylelint-prettier@^1.1.1:
+stylelint-prettier@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-1.1.2.tgz#2b19abe40789c380bffee3d4267c413d981a86ea"
   dependencies:
@@ -8029,7 +8045,7 @@ stylelint-scss@^3.4.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.2"
 
-stylelint-webpack-plugin@^1.0.4, stylelint-webpack-plugin@^1.1.1:
+stylelint-webpack-plugin@^1.1.1, stylelint-webpack-plugin@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/stylelint-webpack-plugin/-/stylelint-webpack-plugin-1.1.2.tgz#43cad5a03643d84650ba6c579717e52def3a1acc"
   dependencies:
@@ -8037,7 +8053,7 @@ stylelint-webpack-plugin@^1.0.4, stylelint-webpack-plugin@^1.1.1:
     micromatch "^4.0.2"
     schema-utils "^2.6.1"
 
-stylelint@^12.0.0:
+stylelint@^12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-12.0.1.tgz#5b1f3bf7333320acce322b49852c8b85e94ce7e4"
   dependencies:
@@ -8328,9 +8344,15 @@ tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
 
-tslib@^1.9.0:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+
+tsutils@^3.17.1:
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.17.1.tgz#ed719917f11ca0dee586272b2ac49e015a2dd759"
+  dependencies:
+    tslib "^1.8.1"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -8660,17 +8682,6 @@ vue-analytics@^5.18.0:
 vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
-
-vue-eslint-parser@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-5.0.0.tgz#00f4e4da94ec974b821a26ff0ed0f7a78402b8a1"
-  dependencies:
-    debug "^4.1.0"
-    eslint-scope "^4.0.0"
-    eslint-visitor-keys "^1.0.0"
-    espree "^4.1.0"
-    esquery "^1.0.1"
-    lodash "^4.17.11"
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
