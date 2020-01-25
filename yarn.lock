@@ -5418,9 +5418,9 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.2.6":
-  version "2.2.6"
-  resolved "https://github.com/martinmethod/mm-atomic-pack#ab9fdd7fb5c9c5140dc81b60d5759e1190f3dd25"
+"mm-atomic-pack@https://github.com/martinmethod/mm-atomic-pack#v2.2.8":
+  version "2.2.8"
+  resolved "https://github.com/martinmethod/mm-atomic-pack#71a0e84397988867cdaa08761732fbba8caf015f"
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
     contentful "^7.11.4"
