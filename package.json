@@ -2,17 +2,17 @@
   "name": "homepage",
   "title": "Martin Metodiev",
   "description": "Martin Metodiev’s personal webpage",
-  "version": "2.11.9",
+  "version": "2.11.10",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git://github.com/martinmethod/martinmethod.github.io.git"
   },
-  "homepage": "http://martinmetodiev.com",
+  "homepage": "https://metodiev.dev",
   "author": {
     "name": "Martin Metodiev",
     "email": "metodiev.martin@gmail.com",
-    "url": "http://martinmetodiev.com"
+    "url": "https://metodiev.dev"
   },
   "private": true,
   "keywords": [
@@ -39,6 +39,6 @@
     }
   },
   "devDependencies": {
-    "mm-atomic-pack": "https://github.com/martinmethod/mm-atomic-pack#v2.2.6"
+    "mm-atomic-pack": "https://github.com/martinmethod/mm-atomic-pack#v2.2.8"
   }
 }

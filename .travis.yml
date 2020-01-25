@@ -3,7 +3,7 @@ node_js:
 - 10
 script:
 - yarn generate
-- printf 'martinmetodiev.com' > dist/CNAME
+- printf 'metodiev.dev' > dist/CNAME
 - cp 'README.md' dist
 before_install:
   - openssl aes-256-cbc -K $encrypted_57f086f95ca1_key -iv $encrypted_57f086f95ca1_iv -in .env.enc -out .env -d
