@@ -12,13 +12,6 @@ export default {
   components: { Heading, TextBlock, Author, Avatar },
 
   computed: {
-    formattedTitle() {
-      return this.title
-        .replace('convert ', 'convert <br />')
-        .replace('design', '<span data-col="o">design</span>')
-        .replace('code', '<span data-col="b">code</span>');
-    },
-
     formattedText() {
       return documentToHtmlString(this.content);
     }

@@ -1,6 +1,6 @@
 <article :class="$style.root">
   <div :class="$style.head">
-    <Heading :size="1" :class="$style.title"><span v-html="formattedTitle" /></Heading>
+    <Heading :size="1" :class="$style.title"><span v-html="title" /></Heading>
     <Avatar v-if="author && author.avatar" :class="$style.avatar" :src="author.avatar" :alt="author.name" />
   </div>
 
