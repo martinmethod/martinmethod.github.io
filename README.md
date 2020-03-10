@@ -2,7 +2,7 @@
 
 > Martin Metodiev’s personal webpage
 
-[![Travis](https://img.shields.io/travis/martinmethod/martinmethod.github.io.svg)](https://travis-ci.org/martinmethod/martinmethod.github.io) [![David](https://img.shields.io/david/martinmethod/martinmethod.github.io.svg)](https://david-dm.org/martinmethod/martinmethod.github.io) [![David](https://img.shields.io/david/dev/martinmethod/martinmethod.github.io.svg)](https://david-dm.org/martinmethod/martinmethod.github.io?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/martinmethod.github.io.svg)](https://github.com/martinmethod/martinmethod.github.io/releases/latest)
+[![Travis](https://img.shields.io/travis/methodev/methodev.github.io.svg)](https://travis-ci.org/methodev/methodev.github.io) [![David](https://img.shields.io/david/methodev/methodev.github.io.svg)](https://david-dm.org/methodev/methodev.github.io) [![David](https://img.shields.io/david/dev/methodev/methodev.github.io.svg)](https://david-dm.org/methodev/methodev.github.io?type=dev) [![GitHub release](https://img.shields.io/github/release/methodev/methodev.github.io.svg)](https://github.com/methodev/methodev.github.io/releases/latest)
 
 ## Build Setup
 
