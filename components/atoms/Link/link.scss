@@ -3,10 +3,7 @@
 
 // -------------------------| Root
 .root {
-  position: relative;
-  margin-left: rem(
-    $roles-size-link-icon + map-get($roles-spaces-min, 'text-icon')
-  );
+  //
 }
 
 // -------------------------| Icon
