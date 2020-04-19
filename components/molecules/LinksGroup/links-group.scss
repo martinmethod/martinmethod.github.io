@@ -9,6 +9,11 @@
 
 // -------------------------| Item
 .item {
+  position: relative;
+  margin-left: rem(
+    $roles-size-link-icon + map-get($roles-spaces-min, 'text-icon')
+  );
+
   + .item {
     margin-top: rem(map-get($roles-spaces-min, 'atoms') * 2);
   }
