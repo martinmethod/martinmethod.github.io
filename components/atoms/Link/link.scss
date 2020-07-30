@@ -20,6 +20,11 @@
   font-size: map-get($roles-typo-font-sizes, 'link');
 }
 
+// -------------------------| Inactive
+.inactive {
+  text-decoration: line-through;
+}
+
 // -------------------------| Print styles
 @media print {
   .root::after {

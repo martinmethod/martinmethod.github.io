@@ -14,6 +14,10 @@ export default {
     url: {
       type: String,
       required: true
+    },
+    inactive: {
+      type: Boolean,
+      default: false
     }
   }
 };

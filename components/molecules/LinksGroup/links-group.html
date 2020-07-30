@@ -5,9 +5,7 @@
       :class="$style.item"
   >
     <Link
-      :icon="item.fields.icon"
-      :name="item.fields.name"
-      :url="item.fields.url"
+      v-bind="item.fields"
     />
   </span>
 </div>
