@@ -1,4 +1,4 @@
-<a :class="[$style.root, { [$style.inactive]: inactive }]" :href="url" target="_blank">
+<a :class="[$style.root, { [$style.inactive]: inactive }]" :href="url" :title="inactive ? 'Discontinued.' : null" target="_blank">
   <svg :class="$style.icon" viewBox="0 0 512 512">
     <image width="512" height="512" :xlink:href="icon.fields.file.url"></image>
   </svg>
