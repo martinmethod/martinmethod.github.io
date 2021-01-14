@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 10
+- 12
 script:
 - yarn generate
 - printf 'metodiev.dev' > dist/CNAME
@@ -12,8 +12,7 @@ branches:
   - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
 deploy:
 - provider: releases
-  api_key:
-    secure: uVZndLvFMgTAfkwHqVhPphP1umGip5Ox0Szi/Gogy4S16ZmvKIlO+SRcIniMOW8qzE2z75fWlkGeoDPLFe/1/nrpiv+TJGirRq4GSBoiTEbuwoKZAUae4sLXtPTAfz1dMA8yxeit+HUy3JzjLjx5QkYt1qx3/m0l7MFx/r78BnPL5xNNCzcnKfsE9wxIEj7BFYKOrwvnlZ2yg80fXdFNIoAnQtWxe0UVWLCY/nM5v/lg+SnD8EwrbMFsYEfSJ+P3HTHUc9sKyFXipOvm1X0qK3Mf1/5af/t2XMnklNxqAZWKJGJ7U5LV5k7LssIAZue6FyAGuF5qskmA8rUZoWZOvSEtbXDeSd5dZlfTEo9UTivw4L48F0NTh3WeLyfJ0p1WI/9anq8sceoJ7cE9Dlk/oTUaA8Kp5lLX6yGMPkFDU0lcjP0BNLFKCabjGnENLeFsxLLC9UM4v6fW9a4dYcn8dqUQsxjzaKNJqJnGt2CHLWU3yzNJ2KDupE9myf6XNetml12Vl67oxqo5mytn8bgiel7uUNpKRkk65snBHvViKR6BzzoleGurhrpKHZkEmeJJasKtc/u4z79FOZGyP8IUcbGBUemrGRPwrUZ1+6ccyvgY4K9CFAP1Q59pj5DZLth3pHinU/yOxnZ+9N3wnHb0Ke3ddLwN7aVGGICfsJt8ueI=
+  api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     tags: true
@@ -21,7 +20,6 @@ deploy:
   skip_cleanup: true
   local_dir: dist
   target_branch: master
-  github_token:
-    secure: uVZndLvFMgTAfkwHqVhPphP1umGip5Ox0Szi/Gogy4S16ZmvKIlO+SRcIniMOW8qzE2z75fWlkGeoDPLFe/1/nrpiv+TJGirRq4GSBoiTEbuwoKZAUae4sLXtPTAfz1dMA8yxeit+HUy3JzjLjx5QkYt1qx3/m0l7MFx/r78BnPL5xNNCzcnKfsE9wxIEj7BFYKOrwvnlZ2yg80fXdFNIoAnQtWxe0UVWLCY/nM5v/lg+SnD8EwrbMFsYEfSJ+P3HTHUc9sKyFXipOvm1X0qK3Mf1/5af/t2XMnklNxqAZWKJGJ7U5LV5k7LssIAZue6FyAGuF5qskmA8rUZoWZOvSEtbXDeSd5dZlfTEo9UTivw4L48F0NTh3WeLyfJ0p1WI/9anq8sceoJ7cE9Dlk/oTUaA8Kp5lLX6yGMPkFDU0lcjP0BNLFKCabjGnENLeFsxLLC9UM4v6fW9a4dYcn8dqUQsxjzaKNJqJnGt2CHLWU3yzNJ2KDupE9myf6XNetml12Vl67oxqo5mytn8bgiel7uUNpKRkk65snBHvViKR6BzzoleGurhrpKHZkEmeJJasKtc/u4z79FOZGyP8IUcbGBUemrGRPwrUZ1+6ccyvgY4K9CFAP1Q59pj5DZLth3pHinU/yOxnZ+9N3wnHb0Ke3ddLwN7aVGGICfsJt8ueI=
+  github_token: $GITHUB_TOKEN
   on:
     tags: true
