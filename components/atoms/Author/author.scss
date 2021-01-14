@@ -4,8 +4,9 @@
 // -------------------------| Root
 .root {
   font-size: map-get($roles-typo-font-sizes, 'author');
-  font-weight: map-get($roles-typo-font-weights, 'author');
+  font-style: italic;
   color: map-get($roles-col-texts, 'author');
+  text-align: right;
 
   p {
     margin: 0;
