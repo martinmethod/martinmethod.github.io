@@ -13,18 +13,25 @@
     &::first-letter {
       float: left;
       padding-right: rem(6.5px);
-      margin: 0 0 -#{rem(10.4px)} rem(4px);
-      font-size: rem(72px);
-      font-weight: bold;
+      margin: -#{rem(8.4px)} 0;
+      font-size: rem(60px);
+      font-weight: 600;
       line-height: 1;
-      color: map-get($swatch-colors-mono, 'dusty-gray');
+      color: transparent;
+      background: linear-gradient(
+        70deg,
+        #{map-get($roles-col-labels, 'code')} 33%,
+        #{map-get($roles-col-labels, 'design')} 66%
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
   @-moz-document url-prefix('') {
     > *:first-child {
       &::first-letter {
-        margin-top: rem(14.2px);
+        margin: -#{rem(5px)} 0;
       }
     }
   }
