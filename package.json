@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "@nuxt/types": "~0.6.0",
-    "mm-atomic-pack": "https://github.com/methodev/mm-atomic-pack#v2.6.4"
+    "mm-atomic-pack": "https://github.com/methodev/mm-atomic-pack#v2.6.5"
   }
 }
