@@ -12,6 +12,18 @@ export default {
     await store.dispatch('contentful/fetchContent');
   },
 
+  head({ content }) {
+    return {
+      link: [
+        {
+          rel: 'preload',
+          as: 'image',
+          href: content.identity.fields.avatar
+        }
+      ]
+    };
+  },
+
   components: { Main },
 
   computed: mapState({
