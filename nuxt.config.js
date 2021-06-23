@@ -1,3 +1,4 @@
+import 'dev-assets/config/dotenv';
 import meta from 'dev-assets/config/nuxt/meta';
 import splashscreens from 'dev-assets/config/nuxt/splashscreens';
 import buildModules from 'dev-assets/config/nuxt/buildModules';
